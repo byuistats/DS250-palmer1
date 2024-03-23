@@ -1,0 +1,114 @@
+---
+title: "Project 2: Late Flights & Missing Data (JSON)"
+date: 2020-05-01T11:02:05+06:00
+lastmod: 2020-09-15T10:42:26+06:00
+weight: 3
+draft: false
+# search related keywords
+keywords: [""]
+---
+
+
+### Walkthrough
+```{=html}
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/41338032/partner_id/1157612?iframeembed=true&playerId=kaltura_player&entry_id=1_23faja3r&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_pa4fc35g" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="W04 - Project 2 Walkthrough"></iframe>
+```
+
+
+### Background
+
+::: {.callout-note collapse="true"}
+
+We will complete six projects during the semester that each take about two weeks (four days of class).  On average, a student will spend 2 hours outside of class per hour in class to complete the assigned readings, submit any Canvas items, and complete the project (for a total of 8 hours per project). The instruction for each project will be structured into sections as written on this page. 
+
+This first Background section provides context for the project. Make sure you read the background carefully to see the big picture needs and purpose of the project.
+:::
+
+Delayed flights are not something most people look forward to. In the best case scenario you may only wait a few extra minutes for the plane to be cleaned. However, those few minutes can stretch into hours if a mechanical issue is discovered or a storm develops. Arriving hours late may result in you missing a connecting flight, job interview, or your best friend’s wedding.
+
+In 2003 the Bureau of Transportation Statistics (BTS) began collecting data on the causes of delayed flights. The categories they use are Air Carrier, National Aviation System, Weather, Late-Arriving Aircraft, and Security. You can visit the [BTS website](https://www.bts.gov/topics/airlines-and-airports/understanding-reporting-causes-flight-delays-and-cancellations) to read definitions of these categories.
+
+
+### Client Request
+
+The JSON file for this project contains information on delays at 7 airports over 10 years. Your task is to clean the data, search for insights about flight delays, and communicate your results to the Client. The Client is a CEO of a flight booking app who is interested in the causes of flight delays and wants to know which airports have the worst delays. They also want to know the best month to fly if you want to avoid delays of any length.
+
+
+### Data
+
+::: {.callout-note collapse="true"}
+Every data science project should start with data, and our class projects are no different. Each project will have __'Download'__ and __'Information'__ links like the ones below.
+:::
+
+__Download:__ [JSON File](https://github.com/byuidatascience/data4missing/raw/master/data-raw/flights_missing/flights_missing.json)   
+__Information:__ [Data Description](https://github.com/byuidatascience/data4missing/blob/master/data.md)  
+__Subject Matter:__ [Types of Delay](https://aspm.faa.gov/aspmhelp/index/Types_of_Delay.html)  
+
+
+### Readings
+
+::: {.callout-note collapse="true"}
+The Readings section will contain links to reading assignments that are required for each project, as well as optional references. Remember that you are reading this material to build skills. Take the time to comprehend the readings and the skills contained within.  
+
+We recommend reading through the assigned material once for a general understanding **before the first day of each project**.  You will reread and reference the material multiple times as you complete the project.
+:::
+
+- [P4DS: Section 12.1 & 12.2 Tidy data](https://byuidatascience.github.io/python4ds/tidy-data.html#tidy-data-1)
+- [P4DS: Chapter 5 Data transformation](https://byuidatascience.github.io/python4ds/transform.html)
+- [P4DS: Section 7.4 Missing Values](https://byuidatascience.github.io/python4ds/exploratory-data-analysis.html#missing-values-2)
+- [Python Data Science Handbook: Missing Data](https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html)
+- [Handling Missing Data](https://towardsdatascience.com/machine-learning-handling-missing-data-27b09ab146ba)
+- [Wikipedia Missing Data](https://en.wikipedia.org/wiki/Missing_data)
+
+#### Optional References
+
+- [isin method](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#indexing-with-isin)
+- [where method](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#the-where-method-and-masking)
+- [np.where method](https://numpy.org/doc/stable/reference/generated/numpy.where.html)
+- [replace method](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.replace.html)
+- [An introduction to JSON](https://towardsdatascience.com/an-introduction-to-json-c9acb464f43e) _(May need to open in ingognito to read.)_
+- [The key word in 'Data Science' is not Data...](https://simplystatistics.org/posts/2013-12-12-the-key-word-in-data-science-is-not-data-it-is-science/)
+- [How to Handle Missing Data](https://towardsdatascience.com/how-to-handle-missing-data-8646b18db0d4) _(May need to open in ingognito to read.)_
+- [Lambda Function](https://realpython.com/python-lambda/)
+
+
+### Questions and Tasks (Core)
+
+::: {.callout-note collapse="true"}
+This section lists the questions and tasks that need to be completed for the project. Your work on the project must be compiled into a report, pushed to GitHub and a URL submitted in Canvas by the weekend following the last day of material for the project. 
+
+There are two types of questions: Core and Stretch. Core questions are required for each project. The course syllabus [competencies](../Syllabus/competency.qmd) requires specic a number of projects having all the Stretch questions achived based on your goals for the grade level you are seeking.
+:::
+
+1. __Fix all of the varied missing data types in the data to be consistent (all missing values should be displayed as “NaN”).__ In your report include one record example (one row) from your new data, in the raw JSON format. Your example should display the "NaN" for at least one missing value.__  
+
+1. __Which airport has the worst delays?__ Describe the metric you chose, and why you chose it to determine the “worst” airport. Your answer should include a summary table that lists (for each airport) the total number of flights, total number of delayed flights, proportion of delayed flights, and average delay time in hours.  
+
+1. __What is the best month to fly if you want to avoid delays of any length?__ Describe the metric you chose and why you chose it to calculate your answer. Include one chart to help support your answer, with the x-axis ordered by month. (To answer this question, you will need to remove any rows that are missing the `Month` variable.)  
+
+1. According to the BTS website, the “Weather” category only accounts for severe weather delays. Mild weather delays are not counted in the “Weather” category, but are actually included in both the “NAS” and “Late-Arriving Aircraft” categories. __Your job is to create a new column that calculates the total number of flights delayed by weather (both severe and mild).__ You will need to replace all the missing values in the Late Aircraft variable with the mean. Show your work by printing the first 5 rows of data in a table. Use these three rules for your calculations:  
+
+    a. 100% of delayed flights in the Weather category are due to weather  
+    a. 30% of all delayed flights in the Late-Arriving category are due to weather  
+    a. From April to August, 40% of delayed flights in the NAS category are due to weather. The rest of the months, the proportion rises to 65%  
+
+1. __Using the new weather variable calculated above, create a barplot showing the proportion of all flights that are delayed by weather at each airport. Describe what you learn from this graph.__  
+
+
+### Questions and Tasks (Stretch)
+
+Here is an example Stretch question(s) for this project. Your instructor may assign different Stretch question(s). You must comment in Canvas when submitting your project if you completed any of the Stretch questions.  
+
+1. __Which delay is the worst delay?__ Create a similar analysis as above for Weahter Delay with: Carrier Delay and Security Delay. Compare the proportion of delay for each of the three categories in a Chart and a Table. Describe your results.
+
+
+### Deliverables
+
+_Use this [template](/Templates/ds250_project_template_clean.qmd) to submit your Client Report. The template has two sections:_
+
+1. _A short elevator pitch that highlights key values or metrics from the results. Describing these key insights to interest or hook the reader to want to read more about your work. The writing style should be more technical with some creative elements. Do not summarize what you did._  
+1. _Answers to the questions | tasks. Each answer should include a written description of your results, code cells with comments, charts, and/or tables._  
+
+::: {.callout-note collapse="false"}
+_Your report should be written in quarto markdown files and pushed to GitHub which will render it to HTML. Submit a URL of the rendered project in Canvas. (Do not submit the URL to the GitHub `.qmd` file)_  
+:::

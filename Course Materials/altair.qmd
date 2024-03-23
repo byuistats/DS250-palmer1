@@ -1,0 +1,140 @@
+---
+title: "Data Visualization with Plotly Express"
+date: 2020-05-01T11:02:05+06:00
+lastmod: 2020-09-15T10:42:26+06:00
+weight: 4
+draft: false
+# search related keywords
+keywords: [""]
+---
+
+### Getting started with Altair
+
+---
+
+::: {.callout-note collapse="true"}
+### Expand To See Links to Chapter in the book `Python for DataScience`
+- [Chapter on Altair: Setup and Basics](https://byuidatascience.github.io/python4ds/data-visualisation.html)
+- [Chapter on Altair: Labels,Annotation, Scales](https://byuidatascience.github.io/python4ds/graphics-for-communication.html)
+:::
+_What makes a chart look good?_
+
+```{.python filename="Altair Chart Structure"}
+alt.Chart()
+.mark_*()
+.encode()
+```
+
+### Size of chart
+```{.python filename="Width and Height"}
+.properties(
+    width=600,
+    height=150,
+)
+```
+
+### Title and subtitle
+```{.python filename="Title"}
+.properties(
+    title="Bump Chart for Stock Prices",,
+)
+```
+```{.python filename="Title w/ Subtitle 1"}
+.properties(
+    title={
+    "text": ["First line of title", "Second line of title"], 
+    "subtitle": ["Cool first line of subtitle", "Even cooler second line wow dang"],
+    "color": "red",
+    "subtitleColor": "green"
+    }
+)
+```
+```{.python filename="Title w/ Subtitle 2"}
+title=alt.Title(
+    "Iowa's green energy boom",
+    subtitle="A growing share of the state's energy has come from renewable sources"
+)
+```
+::: {.callout-tip collapse="true"}
+### Expand For Links to Additional Examples
+- [Example 1](https://github.com/altair-viz/altair/issues/1919)
+- [Example 2](https://stackoverflow.com/questions/57244390/has-anyone-figured-out-a-workaround-to-add-a-subtitle-to-an-altair-generated-cha)
+:::
+
+### Size and color of bars
+```{.python filename="Bar Chart Size"}
+alt.Chart(data).mark_bar(size=30)
+```
+```{.python filename="Bar Chart Size and Width"}
+alt.Chart(data).mark_bar(size=30).encode(
+    x='name:O',
+    y='value:Q'
+).properties(width=200)
+```
+```{.python filename="Bar Chart Size and Step"}
+alt.Chart(data).mark_bar(size=30).encode(
+    x='name:N',
+    y='value:Q'
+).properties(width=alt.Step(100))
+```
+
+### Axis formatting
+```{.python filename="Axis Titles"}
+axis = alt.Axis(format = 'd', title = "Year")
+axis = alt.Axis(title = "Children with Name")
+```
+```{.python filename="Axis Scale removing Zero"}
+alt.X('Acceleration:Q').scale(zero=False)
+```
+```{.python filename="Axis Domain Sizing"}
+.scale(domain=(5, 20))
+``` 
+
+### Reference marks
+```{.python filename="Verticle Reference Line with Color"}
+line = alt.Chart(line_df).mark_rule(color="red").encode(x = "year")
+chart + line
+```
+::: {.callout-tip collapse="true"}
+### Expand For Links to Additional Examples
+- [Example 1](https://altair-viz.github.io/gallery/bar_chart_with_highlighted_bar.html)
+:::
+
+### Reference text
+```{.python filename="Verticle Reference Line with Text"}
+dat_label = pd.DataFrame({'x': [1976], 'y': [50000], 'label': ['October 6, 1976']})
+chart + line + text
+```
+::: {.callout-tip collapse="true"}
+### Expand For Links to Additional Examples
+- [Example 1](https://altair-viz.github.io/gallery/scatter_with_labels.html)
+- [Example 2](https://altair-viz.github.io/gallery/bar_chart_with_labels.html)
+- [Example 3](https://stackoverflow.com/questions/57762169/how-do-you-add-a-single-text-label-to-the-max-point-in-an-altair-scatter-plot)
+:::
+
+### Data Labels
+```{.python filename="Data Labels"}
+source = data.wheat()
+
+base = alt.Chart(source).encode(
+    x='wheat',
+    y="year:O",
+    text='wheat'
+)
+base.mark_bar() + base.mark_text(align='left', dx=2)
+```
+
+### Horizontal Datum Line
+```{.python filename="Horizontal Reference Line"}
+alt.Chart().mark_rule().encode(y=alt.datum(1))
+```
+
+### Additional Resources
+- [Learn more about Customizing Altair Visualizations](https://altair-viz.github.io/user_guide/customization.html)
+- [Altair Example Gallery](https://altair-viz.github.io/gallery/index.html)
+
+### Altair videos
+
+- [What is Altair?](https://www.youtube.com/watch?v=AAuPPorsmJc&t=191s)
+- [Altair's Visualization Grammar](https://www.youtube.com/watch?v=U7w1XumKK60)
+- [Altair's Data Types](https://www.youtube.com/watch?v=LSEPyCqjoAg)
