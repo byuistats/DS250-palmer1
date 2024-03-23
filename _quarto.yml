@@ -10,13 +10,13 @@ website:
   title: "DS 250"
   favicon: Images/favicon.png
   back-to-top-navigation: true
-  repo-url: https://github.com/byuistats/DS250-Clark
+  repo-url: https://github.com/byuistats/DS250-Course
   repo-actions: [issue]
   # [layout](https://quarto.org/docs/output-formats/page-layout.html)
 
   page-footer: 
     border: true
-    left: "J. Hathaway, Chaz Clark BYU-I 2023©"
+    left: "J. Hathaway, Chaz Clark BYU-I 2024©"
     right: 
       - icon: github
         href: https://github.com/byuidatascience
@@ -29,18 +29,18 @@ website:
     right:
       - text: "Home"
         file: index.qmd
-      - text: "Projects"
-        file: projects.qmd
-      - text: "Book Time with Us"
-        file: contact.qmd
       - text: "Setup"
         file: setup.qmd
+      - text: "Projects"
+        file: projects.qmd
       - text: "Materials"
         file: materials.qmd
-      - text: "Syllabus"
-        file: Syllabus/syllabus.qmd
       - text: "Workbooks"
         file: workbooks.qmd
+      - text: "Book Time with Us"
+        file: contact.qmd
+      - text: "Syllabus"
+        file: Syllabus/syllabus.qmd
       - text: "Skill Builders"
         file: skill_builders.qmd
       - text: "FAQ"
