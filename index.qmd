@@ -1,6 +1,6 @@
 ---
 title: "DS 250: Data Science Programming"
-subtitle: "Using pandas, Altair, scikit-learn, and NumPy to Program with Data"
+subtitle: "Using pandas, plotly, scikit-learn, and NumPy to Program with Data"
 ---
 
 ## How to navigate this course?
