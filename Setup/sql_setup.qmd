@@ -8,15 +8,18 @@ draft: false
 keywords: [""]
 ---
 
+
 ### SQLITE Setup
 
 There is nothing to download to `setup` SQLITE
 This [SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer) VS Code extension will be helpful to explore the database 
 
+
 ### Downloads
 
 Download this [sqlite db file](/Data/lahmansbaseballdb.sqlite)
 Save it in the same place as the `.py` or `.qmd` file created in the next step
+
 
 ### Test Your Setup
 

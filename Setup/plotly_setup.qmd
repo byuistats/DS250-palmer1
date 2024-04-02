@@ -8,6 +8,7 @@ draft: false
 keywords: [""]
 ---
 
+
 ### Plotly Express Visualization
 
 To get started with plotly.express (typically imported as px), we must first install the library in the usual using pip in the VSCode terminal. 
@@ -24,6 +25,7 @@ import plotly.express as px
 
 
 This gives us access to all functions and built-in datasets to begin using plotly.express to build visualizations in Python.
+
 
 ### Plotly.Express Basics
 

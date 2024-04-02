@@ -8,6 +8,7 @@ draft: false
 keywords: [""]
 ---
 
+
 ### Quarto 
 
 ```{=html}
@@ -18,9 +19,11 @@ Quarto is an open-source scientific and technical publishing system built on [Pa
 
 We use this perfect union of Jupyter Notebooks and RMarkdown for reporting on our projects. It leverages Markdown and Python code chunks to create dynamic HTML content.
 
+
 ### Markdown
 
 Markdown is a plain text formatting syntax aimed at making writing more accessible. The philosophy behind Markdown is that plain text documents should be readable without tags making a mess, but there should still be ways to add text modifiers like lists, bold, italics, etc. It is an alternative to WYSIWYG (what you see is what you get) editors, which use rich text that later gets converted to proper HTML.[^1]
+
 
 ### Quarto Basics
 
@@ -38,6 +41,7 @@ You will need to install the Quarto CLI and then go through the VS Code directio
 ```{=html}
 <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/41338032/partner_id/1157612?iframeembed=true&playerId=kaltura_player&entry_id=1_9y6jv0tb&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_xyuzpp6t" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="W01 - Preview Quarto File"></iframe>
 ```
+
 
 #### Continue to Install Python Libraries
 [Install Python Libraries](/Setup/python_lib.qmd)

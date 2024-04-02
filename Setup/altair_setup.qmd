@@ -8,6 +8,7 @@ draft: false
 keywords: [""]
 ---
 
+
 ### Altair Visualization
 
 We will be using Altair in our course. It is a declarative visualization package in Python that is based on Vega-Lite which leverages the grammar of graphics.
@@ -16,6 +17,7 @@ We will be using Altair in our course. It is a declarative visualization package
 - [Data Visualization Curriculum](https://uwdata.github.io/visualization-curriculum/intro.html) or the [Quarto version](
 https://jjallaire.github.io/visualization-curriculum/)
 - [P4DS Data Visualization Chapter](https://byuidatascience.github.io/python4ds/data-visualisation.html)
+
 
 ### Rendering Altair Charts in Quarto
 

@@ -8,8 +8,10 @@ draft: false
 keywords: [""]
 ---
 
+
 ### Prerequisites
 If you want to use a AWS Academy VM for this course, you will need to have an AWS Educate account. Please [email the admin](mailto:clarkty@byui.edu) for with the subject line "AWS Educate Account Request" and include your full name and course code. You will receive an email from AWS Educate with instructions on how to create an account.
+
 
 ### AWS Virtual Machine Setup
 Watch and follow the two videos, and or follow along with the AWS Virtual Machine Creation Document. Copy paste code from the cell below.
@@ -22,8 +24,10 @@ Watch and follow the two videos, and or follow along with the AWS Virtual Machin
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ia0cvfgSrY?si=UReGJTVcf4SeMFW9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ```
 
+
 ### Setup AWS Documentation
 - [AWS Virtual Machine Creation](https://www.cse-byui.org/)
+
 
 ### Copy Paste Code Block
 ```{.batch}

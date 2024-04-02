@@ -8,6 +8,7 @@ draft: false
 keywords: [""]
 ---
 
+
 ### Download and Install Visual Studio Code
 
 ```{=html}
@@ -17,6 +18,7 @@ keywords: [""]
 Use the link below to download and install the latest version of VS Code:
 
 - [VS Code](https://code.visualstudio.com/download)
+
 
 ### Install VS Code Extensions
 
@@ -28,8 +30,10 @@ Use these links to install the VS Code Extensions. Note: ***DO NOT*** install py
 - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [Quarto](https://marketplace.visualstudio.com/items?itemName=quarto.quarto)
 
+
 ### Learn More About VS Code
 [VS Code](/Course%20Materials/vs_code.qmd)
+
 
 ### Continue to Install Quarto
 [Quarto](/Setup/quarto_setup.qmd)

@@ -156,9 +156,9 @@ website:
         - text: "Course Workbooks"
           file: workbooks.qmd
         - text: "---"
-        # - text: "Project 0"
-        #   file: Workbooks/wb0.qmd
-        # - text: "---"
+        - text: "Project 0"
+          file: Workbooks/wb0.qmd
+        - text: "---"
         - text: "Project 1"
           file: Workbooks/wb1.qmd
         - text: "---"
@@ -174,9 +174,9 @@ website:
         - text: "Project 5"
           file: Workbooks/wb5.qmd
         - text: "---"
-        # - text: "Project 6"
-        #   file: Workbooks/wb6.qmd
-        # - text: "---"
+        - text: "Project 6"
+          file: Workbooks/wb6.qmd
+        - text: "---"
         
     - title: "Skill Builders"
       contents:

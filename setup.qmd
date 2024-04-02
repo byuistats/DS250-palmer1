@@ -27,13 +27,19 @@ If you want to use Python and VS code on your own laptop, start here:
 1. Install [VS Code](/Setup/vs_code_setup.qmd)  
 1. Install [Quarto](/Setup/quarto_setup.qmd)  
 1. Install [Python Libraries](Setup/python_lib.qmd)  
-1. Install [Git](/Setup/git_github_setup.qmd)  
+1. Install [Git & GitHub](/Setup/git_github_setup.qmd)  
 <!--1. Install Altair--> 
 
 You will need to use SQL in Week 6:
 
 1. [SQL](/Setup/sql_setup.qmd) setup and test
 
-Interested in using Copilot all Semester?
+Interested in using Copilot all Semester? 
+> Copilot is a micro-assistant that helps you write better code. It is a VS Code extension that uses AI built off Chat GPT-4. With your student GitHub account, you can use Copilot for free. It helps you write code faster and with fewer errors. It is not perfect, but it is a great tool to help you learn to code.
 
 1. Install [GitHub Copilot](/Setup/copilot_setup.qmd) (optional)
+
+Prefer an Open Source AI tool try [Llama](https://ollama.com/library/codellama)?
+> Llama is an AI-powered code editor that helps you write better code. It is a VS Code extension that uses AI built off Chat GPT-4. With your student GitHub account, you can use Llama for free. It helps you write code faster and with fewer errors. It is not perfect either, but it is a great tool to help you learn to code.
+
+1. Install [Llama](https://generativeai.pub/100-local-llama-coding-assistant-bye-bye-gpt-4-cbd2b507b822) (optional)

@@ -8,9 +8,11 @@ draft: false
 keywords: [""]
 ---
 
+
 ### Getting started with GitHub Copilot
 
 >GitHub Copilot is free to use for verified students, teachers, and maintainers of popular open source projects.
+
 
 ### How to Install GitHub Copilot Extension ^[1]
 
@@ -34,6 +36,7 @@ To use GitHub Copilot, you must first install the GitHub Copilot extension.
 
 1. To confirm the authentication, in Visual Studio Code, in the "Visual Studio Code" dialog box, click Open.  
 
+
 ### Enabling or disabling GitHub Copilot ^[2]
 
 You can enable or disable GitHub Copilot from within Visual Studio Code. The GitHub Copilot status icon in the bottom panel of the Visual Studio Code window indicates whether GitHub Copilot is enabled or disabled. When enabled, the background color of the icon will match the color of the status bar. When disabled, the background color of the icon will contrast with the color of the status bar.
@@ -56,6 +59,7 @@ You can enable or disable GitHub Copilot from within Visual Studio Code. The Git
 1. Click on the "Add Item" button to add a new language to the list. For this class it is recomended that you add "Python" and "Quarto" to the list of languages. If you add "*" to the list, it will enable Copilot for all languages. To remove a language from the list, click on the "X" icon next to the language.
 
     ()![image](/Images/copilot_languages.png)
+
 
 ### Next Steps [^3]
 You successfully installed GitHub Copilot and received your first suggestion, but that's just the beginning! Here are some helpful resources for taking your next steps with GitHub Copilot.

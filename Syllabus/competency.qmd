@@ -79,14 +79,14 @@ I got three fives, one four, and two threes for 29 points on the projects. I met
 ## Projects
 #### Projects (Questions|Tasks)
 
-_Each of the seven projects is worth 5 points and you get one additional submission after the due date. There are 5 two-week projects and two one-week projects to start and end the class._
+_Each of the seven projects is worth 5 points. There is a draft submission due Wednesday (W) of the 2nd week of the project and the final draft due the following Saturday (S). This gives you two attempts to get full points on the project. There are 6 two-week projects (P0-P5) and 1 one-week project (P6)._
 
 ##### Grading Details
 
 * **1 point:**  Submission
 * **3 points:** Submission of a good faith attempt with a statement of work quality.
-* **4 points:** High-quality work that addresses each of the __**Questions and Tasks**__ and a statement of work quality.
-* **5 points:** Addressed reviewer issues and completion of resubmission (if needed).
+* **4 points:** High-quality work that addresses each of the __**Questions and Tasks**__ and a comment in Canvas of your statement of work quality.
+* **5 points:** Addressed issues and completion of resubmission (if needed).
 
 ## Quiz Checkpoints
 #### Checkpoints (methods and calculations)
@@ -95,7 +95,7 @@ _These checkpoints are in Canvas and they open when the project starts.  They ha
 
 ##### Examples
 
-* **Fact-Finding Questions (Calculate descriptive summaries):**  Fact-finding questions help you with calculations that build into the _Grand Questions_ of the project.  These questions have clearly defined answers using Python calculations.  You should expect 2-3 problems.
+* **Fact-Finding Questions (Calculate descriptive summaries):**  Fact-finding questions help you with calculations that build into the _Questions and Tasks_ of the project.  These questions have clearly defined answers using Python calculations.  You should expect 2-3 problems.
 
 1. Example: Using the top 10 airports in size, what is the average size?
 2. Example: What proportion of flights are delayed at the largest airport?
