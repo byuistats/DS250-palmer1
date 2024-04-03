@@ -52,7 +52,7 @@ __Portfolio:__ [BYUI Data Science Portfolio](https://github.com/byuidatascience/
     a. __Use the Portfolio Template on your Githhub root directory__
         * __Navigate to the [Data Science Portfolio](https://github.com/byuidatascience/datascience_portfolio) repo in GitHub.__
         * __Click the Green Button `Use this template` and select `Create a new repository`__  
-        ![](/Images/gh_template.png){width=200}
+        ![](/Images/gh_template.png){width=150}
         * __Click `include all branches` checkbox, this will include the `gh-pages` branch__  
         ![](/Images/gh_include_all_branches.png){width=500}
         * __Select yourself as the `Owner`__  
@@ -64,26 +64,26 @@ __Portfolio:__ [BYUI Data Science Portfolio](https://github.com/byuidatascience/
 
     a. __Create a new branch `gh-pages` if you forgot to check the `include all branches` box (skip otherwise)__
         * __Click the `Branch: main` button then `view all branches`__  
-        ![](/Images/gh_view_all_branches.png){width=300}
+        ![](/Images/gh_view_all_branches.png){width=500}
         * __Click the `New Branch` button__  
-        ![](/Images/gh_new_branch.png){width=200}
+        ![](/Images/gh_new_branch.png){width=150}
         * __Name the branch `gh-pages` and click the Green Button `Create new branch`__  
-        ![](/Images/gh_create_new_branch.png){width=300}  
+        ![](/Images/gh_create_new_branch.png){width=500}  
 
 
     a.  __Modify Pages Settings for Build and deployment from `main` to `gh-pages`:__
         * __Click the `Settings` tab__  
         ![](/Images/gh_settings.png){width=300}
         * __Scroll down to the `Pages` section in the left hand menu__  
-        ![](/Images/gh_pages.png){width=300}
+        ![](/Images/gh_pages.png){width=500}
         * __Locate the Build and deployment section and change Branch from `main` to `gh-pages` and leave the right side as `/root`__    
-        ![](/Images/gh_gh-pages_root.png){width=750}  
+        ![](/Images/gh_gh-pages_root.png){width=500}  
 
 
     a.  __Clone the repository to your computer__
         * __Click the `<> Code` menu__
         * __Click the Green Button `<> Code` and select `Open with GitHub Desktop`__  
-        ![](/Images/gh_open_in_desktop.png){width=300}
+        ![](/Images/gh_open_in_desktop.png){width=500}
         * __Click the Button `Open in Visual Studio Code`__
         ![](/Images/gh_open_in_vs_code.png){width=500}  
 
@@ -98,21 +98,18 @@ __Portfolio:__ [BYUI Data Science Portfolio](https://github.com/byuidatascience/
 
     a.  __Push the changes to GitHub via GitHub Desktop__
         * __Make sure your current repo in the top left is `username.github.io`__  
-        ![](/Images/gh_current_repo.png){width=750}
+        ![](/Images/gh_current_repo.png){width=500}
         * __Type a commit message and click the Blue Button `Commit to main`__  
-        ![](/Images/gh_commit_main.png){width=200}
+        ![](/Images/gh_commit_main.png){width=300}
         * __Click the Blue Button `Push origin`__  
         ![](/Images/gh_push_origin.png){width=500}  
 
 
     a.  __Confirm the GitHub Actions are working__
         * __Navigate to the repo in GitHub and click on the  `Actions` tab__  
-        ![](/Images/gh_actions.png){width=500}
-        * __Confirm the `Update _quarto.yml` is working by the yellow circle turning to a green check circle (Note: this can take 3-5min)__  
-        ![](/Images/gh_all_workflows.png){width=300}
-
-    a. __Fix the main page loading the ReadMe.md file__
-        * __Run `quarto publish gh-pages` in the terminal of VS Code__
+        ![](/Images/gh_actions.png){width=300}
+        * __Confirm the `Update _quarto.yml` is working by the yellow circle turning to a green check circle (Note: this can take 3-5min)__
+        ![](/Images/gh_all_workflows.png){width=500}
 
 
 1. __Git your Resume in your Portfolio__

@@ -12,12 +12,12 @@ keywords: [""]
 
 ### Competency scale {#scale}
 
-You must complete all competency items at the level detailed to achieve the listed grade. You can request half-step adjustments if you fall slightly short on some elements and over on others.  
+You must complete all competency items at the level detailed to achieve the listed grade. You can request half-step adjustments if you fall slightly short on some elements and over on others.
 
-You will need to provide a detailed description in your __**Course Goals Letter**__ of the items you completed to support your grade request.  If a student was in the B range they might write the following:  
+You will need to provide a detailed description in your __**Course Goals Letter**__ of the items you completed to support your grade request.  If a student was in the B range they might write the following:
 
 > Example Course Goals Letter (End):  
-I got three fives, one four, and two threes for 29 points on the projects. I met the checkpoint requirements with 4 full mark mid-project checkpoints and 4 methods and calculation checkpoints. I regularly attended data science society.  I believe my coding challenge will be above a 3.  I request a _B+_.  
+I got three fives, one four, and two threes for 29 points on the projects. I met the checkpoint requirements with 4 full mark mid-project checkpoints and 4 methods and calculation checkpoints. I regularly attended data science society.  I believe my coding challenge will be above a 3.  I request a _B+_.
 
 ::: {.panel-tabset}
 
@@ -27,7 +27,7 @@ I got three fives, one four, and two threes for 29 points on the projects. I met
 | :----------------------------------       | --------------- | ------------------------- |
 | __Projects__                              | 34 Points       | 5 points per project      |
 | __Project Stretchs__                      | At least 3      | --                        |
-| __Mid-project checkpoints__               | 5 completed     | Full credit (online only) |
+| __Mid-project checkpoints__               | 5 completed     | Full credit               |
 | __Methods & Calculations checkpoints__    | 6 completed     | 100% unlimited attempts   |
 | __DS Community__                          | At least 3      | --                        |
 | __Course Goal Letter (End)__              | submission      | --                        |
@@ -39,7 +39,7 @@ I got three fives, one four, and two threes for 29 points on the projects. I met
 | :----------------------------------       | --------------- | ------------------------- |
 | __Projects__                              | 29 Points       | 5 points per project      |
 | __Project Stretchs__                      | At least 2      | --                        |
-| __Mid-project checkpoints__               | 3 completed     | Full credit (online only) |
+| __Mid-project checkpoints__               | 3 completed     | Full credit               |
 | __Methods & Calculations checkpoints__    | 5 completed     | 100% unlimited attempts   |
 | __DS Community__                          | At least 2      | --                        |
 | __Course Goal Letter (End)__              | submission      | --                        |
@@ -51,7 +51,7 @@ I got three fives, one four, and two threes for 29 points on the projects. I met
 | :----------------------------------       | --------------- | ------------------------- |
 | __Projects__                              | 24 Points       | 5 points per project      |
 | __Project Stretchs__                      | At least 1      | --                        |
-| __Mid-project checkpoints__               | 3 completed     | Full credit (online only) |
+| __Mid-project checkpoints__               | 3 completed     | Full credit               |
 | __Methods & Calculations checkpoints__    | 3 completed     | 100% unlimited attempts   |
 | __DS Community__                          | At least 1      | --                        |
 | __Course Goal Letter (End)__              | submission      | --                        |
@@ -63,7 +63,7 @@ I got three fives, one four, and two threes for 29 points on the projects. I met
 | :----------------------------------       | --------------- | ------------------------- |
 | __Projects__                              | 14 Points       | 5 points per project      |
 | __Project Stretchs__                      | None            | --                        |
-| __Mid-project checkpoints__               | 1 completed     | Full credit (online only) |
+| __Mid-project checkpoints__               | 1 completed     | Full credit               |
 | __Methods & Calculations checkpoints__    | 2 completed     | 100% unlimited attempts   |
 | __DS Community__                          | None            | --                        |
 | __Course Goal Letter (End)__              | None            | --                        |

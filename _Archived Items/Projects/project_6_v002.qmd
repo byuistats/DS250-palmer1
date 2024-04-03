@@ -111,9 +111,6 @@ __Portfolio:__ [BYUI Data Science Portfolio](https://github.com/byuidatascience/
         * __Confirm the `Update _quarto.yml` is working by the yellow circle turning to a green check circle (Note: this can take 3-5min)__  
         ![](/Images/gh_all_workflows.png){width=300}
 
-    a. __Fix the main page loading the ReadMe.md file__
-        * __Run `quarto publish gh-pages` in the terminal of VS Code__
-
 
 1. __Git your Resume in your Portfolio__
     * __Move your resume from Project 0 into the Portfolio by replacing the `resume.qmd` file__
