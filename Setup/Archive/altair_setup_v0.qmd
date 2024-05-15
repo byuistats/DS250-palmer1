@@ -28,7 +28,7 @@ We use [Quarto](https://quarto.org/docs/presentations/revealjs/#figure-size) to 
 
 1. Install the [NodeJS](https://nodejs.org/en/download/) for your platform
 2. Run the following in your Terminal (Intel-Mac) or PowerShell (Windows) to install all the packages we need from NodeJS.
-
+<!-- /usr/local/bin is in your $PATH. -->
 ```
 npm install -g vega-lite vega-cli canvas
 ```

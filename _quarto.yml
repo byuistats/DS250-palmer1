@@ -10,8 +10,10 @@ website:
   title: "DS 250"
   favicon: Images/favicon.png
   back-to-top-navigation: true
+  issue-url: https://github.com/byuistats/DS250-Course/issues/new
   repo-url: https://github.com/byuistats/DS250-Course
   repo-actions: [issue]
+  
   # [layout](https://quarto.org/docs/output-formats/page-layout.html)
 
   page-footer: 

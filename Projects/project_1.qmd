@@ -54,7 +54,8 @@ The Readings section will contain links to reading assignments that are required
 We recommend reading through the assigned material once for a general understanding **before the first day of each project**.  You will reread and reference the material multiple times as you complete the project.
 :::
 
-- [Python for Data Science (P4DS): Data Visualization](https://byuidatascience.github.io/python4ds/data-visualisation.html) 
+<!-- - [Python for Data Science (P4DS): Data Visualization](https://byuidatascience.github.io/python4ds/data-visualisation.html)  -->
+- [Python for Data Science (P4DS): Data Visualization](visualize.qmd)
 - [P4DS: Graphics for Communication](https://byuidatascience.github.io/python4ds/graphics-for-communication.html)
 - [P4DS: Markdown](https://byuidatascience.github.io/python4ds/markdown.html)
 - [P4DS: 5.2 Filter rows with .query()](https://byuidatascience.github.io/python4ds/transform.html#filter-rows-with-.query)

@@ -14,10 +14,18 @@ keywords: [""]
 
 You must complete all competency items at the level detailed to achieve the listed grade. You can request half-step adjustments if you fall slightly short on some elements and over on others.  
 
-You will need to provide a detailed description in your __**Course Goals Letter**__ of the items you completed to support your grade request.  If a student was in the B range they might write the following:  
+You will need to provide a detailed description in your __**Course Goals Letter**__ of the items you completed to support your grade request. The course goals letter is a reflection on your efforts and the competencies they align with as well as your reflection on achieving your goals for this course.  
 
-> Example Course Goals Letter (End):  
-I got three fives, one four, and two threes for 29 points on the projects. I met the checkpoint requirements with 4 full mark mid-project checkpoints and 4 methods and calculation checkpoints. I regularly attended data science society.  I believe my coding challenge will be above a 3.  I request a _B+_.  
+#### Example Course Goals Letter (End):  
+Here is my assessment of my efforts and the competencie they aligh with as well as my reflection on achieving my goals for this course:
+
+ >   Projects 29 points (B-)  
+ >   Project Stretchs 1 (C)  
+ >   Mid-project checkpoints 4 (B+)  
+ >   Methods & Calculations checkpoints 4 (C+)  
+ >   DS Community 3 (A)  
+ >   Coding challenge 3 (A/B)  
+ >   The over-under of my work is a B/B+. I am requesting a B+ for the course. 
 
 ::: {.panel-tabset}
 
@@ -26,9 +34,9 @@ I got three fives, one four, and two threes for 29 points on the projects. I met
 | Element                                   | Requirement     | Description               |
 | :----------------------------------       | --------------- | ------------------------- |
 | __Projects__                              | 34 Points       | 5 points per project      |
-| __Project Stretchs__                      | At least 3      | --                        |
+| __Project Stretchs__                      | At least 3      | 3 projects all stretches  |
 | __Mid-project checkpoints__               | 5 completed     | Full credit (online only) |
-| __Methods & Calculations checkpoints__    | 6 completed     | 100% unlimited attempts   |
+| __Methods & Calculations checkpoints__    | 6 completed     | All 6 @ 100% Full Points  |
 | __DS Community__                          | At least 3      | --                        |
 | __Course Goal Letter (End)__              | submission      | --                        |
 | __Coding challenge__                      | At least 3      | Score is out of 4         |
@@ -38,9 +46,9 @@ I got three fives, one four, and two threes for 29 points on the projects. I met
 | Element                                   | Requirement     | Description               |
 | :----------------------------------       | --------------- | ------------------------- |
 | __Projects__                              | 29 Points       | 5 points per project      |
-| __Project Stretchs__                      | At least 2      | --                        |
+| __Project Stretchs__                      | At least 2      | 2 projects all stretches  |
 | __Mid-project checkpoints__               | 3 completed     | Full credit (online only) |
-| __Methods & Calculations checkpoints__    | 5 completed     | 100% unlimited attempts   |
+| __Methods & Calculations checkpoints__    | 5 completed     | 5 @ 100% Full Points      |
 | __DS Community__                          | At least 2      | --                        |
 | __Course Goal Letter (End)__              | submission      | --                        |
 | __Coding challenge__                      | At least 3      | Score is out of 4         |
@@ -50,9 +58,9 @@ I got three fives, one four, and two threes for 29 points on the projects. I met
 | Element                                   | Requirement     | Description               |
 | :----------------------------------       | --------------- | ------------------------- |
 | __Projects__                              | 24 Points       | 5 points per project      |
-| __Project Stretchs__                      | At least 1      | --                        |
+| __Project Stretchs__                      | At least 1      | 1 projects all stretches  |
 | __Mid-project checkpoints__               | 3 completed     | Full credit (online only) |
-| __Methods & Calculations checkpoints__    | 3 completed     | 100% unlimited attempts   |
+| __Methods & Calculations checkpoints__    | 3 completed     | 3 @ 100% Full Points      |
 | __DS Community__                          | At least 1      | --                        |
 | __Course Goal Letter (End)__              | submission      | --                        |
 | __Coding challenge__                      | At least 2      | Score is out of 4         |
@@ -62,9 +70,9 @@ I got three fives, one four, and two threes for 29 points on the projects. I met
 | Element                                   | Requirement     | Description               |
 | :----------------------------------       | --------------- | ------------------------- |
 | __Projects__                              | 14 Points       | 5 points per project      |
-| __Project Stretchs__                      | None            | --                        |
+| __Project Stretchs__                      | None            | 0 projects all stretches  |
 | __Mid-project checkpoints__               | 1 completed     | Full credit (online only) |
-| __Methods & Calculations checkpoints__    | 2 completed     | 100% unlimited attempts   |
+| __Methods & Calculations checkpoints__    | 2 completed     | 2 @ 100% Full Points      |
 | __DS Community__                          | None            | --                        |
 | __Course Goal Letter (End)__              | None            | --                        |
 | __Coding challenge__                      | None            | Score is out of 4         |
@@ -79,7 +87,9 @@ I got three fives, one four, and two threes for 29 points on the projects. I met
 ## Projects
 #### Projects (Questions|Tasks)
 
-_Each of the seven projects is worth 5 points. There is a draft submission due Wednesday (W) of the 2nd week of the project and the final draft due the following Saturday (S). This gives you two attempts to get full points on the project. There are 6 two-week projects (P0-P5) and 1 one-week project (P6)._
+_Each of the 7 projects is worth 5 points. There is a draft submission due Wednesday (W) of the 2nd week of the project and the final draft due the following Saturday (S). This gives you 2 attempts to get full points on the project. There are 6 two-week projects (P0-P5) and 1 one-week project (P6). Typically no resubmissions are allowed once the project closes in Canvas. Make the changes and take advantage of the resubmit within this window._
+
+_Projects 1-5 will have stretch questions. You must complete all the core qeustions first before attempting the stretch questions. You must complete all the stretch questions accurately for the project to count toward the competencies. The number in the competencies relating to Project Stretches is the number of projects with all the stretch questions completed._
 
 ##### Grading Details
 
@@ -91,11 +101,11 @@ _Each of the seven projects is worth 5 points. There is a draft submission due W
 ## Quiz Checkpoints
 #### Checkpoints (methods and calculations)
 
-_These checkpoints are in Canvas and they open when the project starts.  They have unlimited attempts and remain open until the end of the semester._
+_These Methods and Calculation Quizzes are in Canvas and they open when the project starts. They have unlimited attempts and remain open until the end of the semester. You must get a 100% on these quizzes for them to count toward the competencies._
 
 ##### Examples
 
-* **Fact-Finding Questions (Calculate descriptive summaries):**  Fact-finding questions help you with calculations that build into the _Questions and Tasks_ of the project.  These questions have clearly defined answers using Python calculations.  You should expect 2-3 problems.
+* **Fact-Finding Questions (Calculate descriptive summaries):**  Fact-finding questions help you with calculations that build into the _Questions and Tasks_ of the project. These questions have clearly defined answers using Python calculations. You should expect 2-3 problems.
 
 1. Example: Using the top 10 airports in size, what is the average size?
 2. Example: What proportion of flights are delayed at the largest airport?
@@ -105,21 +115,25 @@ _These checkpoints are in Canvas and they open when the project starts.  They ha
 1. Example (direct):  What is the recommended function for arranging your data by a variable? What are the outputs after using `<FUNCTION>`?
 2. Example (open): Your client has shown some confusion about NumPy's 'nan' handling in Python. Help them understand by answering the question, 'How is missing data handled in Pandas?' 
 
-## Checkpoints Mid-Project
+## Checkpoints Mid-Project (online only)
 #### Checkpoints (Mid-project status)
 
-_The mid-project checkpoint has a few questions.  It opens the first day of the project and closes at 1 am on the 3rd day of class for the project. It has the following questions._
+_The mid-project checkpoint has a few questions. It opens the first day of the project and closes on the first Saturday of a 2 week project. It has the following questions._
 
 ##### Examples
 
-1. Have you checked off more than one grand question from the current project?  (Yes/No)
-2. Have you spent at least 2 hours using code to tackle problems related to the case study? (Yes/No).
-3. Have you prepared questions you have about the case study to ask in your next meeting? (Yes/No).
+1. Throughout this project, you have worked on a code. Record a video showing your code that is no more than 1 minute. This video must include:
+    > How long have you worked on this code?
+    > What is your code designed to do?
+    > What are, if any, the issues you’re facing?
+    > What questions or tasks have you checked off?
+1. Submit your 1 minute video. 
+    > You may share any additional notes with your teacher using the Canvas comment feature.
 
 ## DS Community
 #### Data Science Community
 
-To earn credit for the DS Community element you must __complete tasks from the list below__. At the end of the semester, you will be asked to report on which tasks you completed and what you learned from them. See the Competency Scale above to determine how many you need to complete based on the grade you want.
+To earn credit for the DS Community element you must __complete tasks from the list below__. At the end of the semester, you will be asked to report on how many tasks you completed and what you learned from them. See the Competency Scale above to determine how many you need to complete based on the grade you want.
 
 -  Attend [Data Science Society](https://byuidatascience.github.io/society/) at least once.
 - Sign up for an email newsletter that will teach you more about data science. [Data Science Weekly](https://www.datascienceweekly.org/) or [Data Elixir](https://dataelixir.com/) are good options.
@@ -136,13 +150,13 @@ Submit a __**Course Goals Letter (End)**__ that includes what you have learned f
 ## Challenge
 #### Coding challenge
 
-We will have an in-class coding challenge on the ultimate or penultimate day of class. It would be best if you did not view this challenge like a traditional exam.  It will cover the general techniques that we have been practicing throughout the course.
+We will have a timed (60 min) coding challenge on the ultimate or penultimate day of class. This is not a traditional exam and is similar to the projects all semester in size and scope but is accumulative. It will cover the general techniques that we have been practicing throughout the course. You will rely on your code from the projects and the methods and calculations checkpoints to complete the challenge.
 
 We expect to have a few practice challenges throughout the semester. We will score the coding challenge on a four-point scale.
 
 - **1 point:** At least you tried.
 - **2 points:** You have learned some items from the course, but your work in the coding challenge is deficient.
 - **3 points:** Your submission uses proper coding techniques and addresses the objective.
-- **4 points:** Exceptional work.  Your code can be used as a solution to share with others.
+- **4 points:** Exceptional work. Your code can be used as a solution to share with others.
 
 :::
