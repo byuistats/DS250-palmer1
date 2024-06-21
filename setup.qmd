@@ -23,11 +23,12 @@ This course uses Slack as our main tool for communication and collaboration.  Yo
 
 If you want to use Python and VS code on your own laptop, start here:  
 
-1. Install [Python](/Setup/python_setup.qmd)  
+1. Install [Python](/Setup/python_setup.qmd)
+1. Install [Python Libraries](/Setup/python_lib.qmd)    
 1. Install [VS Code](/Setup/vs_code_setup.qmd)  
 1. Install [Quarto](/Setup/quarto_setup.qmd)  
-1. Install [Python Libraries](/Setup/python_lib.qmd)  
-1. Install [Git & GitHub](/Setup/git_github_setup.qmd)  
+1. Install [Git & GitHub](/Setup/git_github_setup.qmd) 
+<!-- 1. Plotly Express Setup [Python](/Setup/plotly_setup.qmd)  -->
 <!--1. Install Altair--> 
 
 You will need to use SQL in Week 6:

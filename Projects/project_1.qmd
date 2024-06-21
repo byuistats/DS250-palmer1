@@ -54,18 +54,18 @@ The Readings section will contain links to reading assignments that are required
 We recommend reading through the assigned material once for a general understanding **before the first day of each project**.  You will reread and reference the material multiple times as you complete the project.
 :::
 
-<!-- - [Python for Data Science (P4DS): Data Visualization](https://byuidatascience.github.io/python4ds/data-visualisation.html)  -->
-- [Python for Data Science (P4DS): Data Visualization](visualize.qmd)
-- [P4DS: Graphics for Communication](https://byuidatascience.github.io/python4ds/graphics-for-communication.html)
-- [P4DS: Markdown](https://byuidatascience.github.io/python4ds/markdown.html)
-- [P4DS: 5.2 Filter rows with .query()](https://byuidatascience.github.io/python4ds/transform.html#filter-rows-with-.query)
-- [P4DS: Chapter 10 DataFrame](https://byuidatascience.github.io/python4ds/dataframe.html)
+- [P4DS: CH7 Workflow: Writing Code](https://aeturrell.github.io/python4DS/workflow-writing-code.html)
+- [P4DS: CH8 Data Import](https://aeturrell.github.io/python4DS/data-import.html)
+- [P4DS: CH14 Graphics for Communication](https://aeturrell.github.io/python4DS/communicate-plots.html)
+- [P4DS: CH30 Markdown](https://aeturrell.github.io/python4DS/markdown.html)
+- [P4DS: CH31 Quarto](https://aeturrell.github.io/python4DS/quarto.html)
+
 
 #### Optional References
 
 - [The query method](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#the-query-method)
-- [Plotly and Pandas](https://medium.com/@guandika8/combining-the-powers-of-plotly-and-pandas-for-effective-data-visualization-a2b0586f970)
-- [Viz with Plotly](https://towardsdatascience.com/visualization-with-plotly-express-comprehensive-guide-eb5ee4b50b57)
+- [Easy Data Visualiztation for Tidy Data with Lets-Plot](https://aeturrell.github.io/coding-for-economists/vis-letsplot.html)
+- [Explore Your Data with Lets-Plot](https://lets-plot.org/python/index.html#explore-your-data-with-lets-plot)
 
 
 ### Questions and Tasks (Core)

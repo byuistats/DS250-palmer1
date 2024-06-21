@@ -4,6 +4,9 @@ project:
     - "!/Templates"
     - "!/Data"
     - "!/Images"
+    - "!/Projects/Archive"
+    - "!/Setup/Archive"
+    - "!/Workbooks/Archive"
   type: website
 
 website:
@@ -98,14 +101,14 @@ website:
         - text: "Python"
           file: Setup/python_setup.qmd
         - text: "---"
+        - text: "Python Libraries"
+          file: Setup/python_lib.qmd
+        - text: "---"
         - text: "VS Code"
           file: Setup/vs_code_setup.qmd
         - text: "---"
         - text: "Quarto"
           file: Setup/quarto_setup.qmd
-        - text: "---"
-        - text: "Python Libraries"
-          file: Setup/python_lib.qmd
         - text: "---"
         - text: "Git and Github"
           file: Setup/git_github_setup.qmd

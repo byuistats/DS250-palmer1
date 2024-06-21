@@ -39,7 +39,11 @@ __Download:__ [lahmansbaseballdb](/Data/lahmansbaseballdb.sqlite)
 __Information:__ [Lahman Data Dictionary](/Data/readme2014.txt)  
 __Setup Instructions:__ [See SQL Setup](/Setup/sql_setup.qmd)
 
-<!-- ### Readings -->
+
+### Readings
+- [SQL Setup and References](../Course%20Materials/sql.qmd)
+- [SQL for Data Science](../Course%20Materials/sql_page.qmd)
+
 
 #### Optional References
 

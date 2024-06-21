@@ -24,7 +24,8 @@ Note: Changes have been made to this course since the video was recorded. The vi
 #### GitHub will be used for publishing all projects
 
 1. Install [git](https://git-scm.com/) on your computer   
-    * [Windows](https://git-scm.com/download/win) Installation  
+    * [Windows](https://git-scm.com/download/win) Installation
+        Note: Keep all settings as default during installation
     * [Mac](https://git-scm.com/download/mac) Installation  
         Note: Mac users can install git using [homebrew](https://brew.sh/) by running `brew install git` in the terminal. You will need to install [homebrew](https://brew.sh/) first if you don't have it  
 

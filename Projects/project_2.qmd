@@ -53,9 +53,14 @@ The Readings section will contain links to reading assignments that are required
 We recommend reading through the assigned material once for a general understanding **before the first day of each project**.  You will reread and reference the material multiple times as you complete the project.
 :::
 
-- [P4DS: Section 12.1 & 12.2 Tidy data](https://byuidatascience.github.io/python4ds/tidy-data.html#tidy-data-1)
-- [P4DS: Chapter 5 Data transformation](https://byuidatascience.github.io/python4ds/transform.html)
-- [P4DS: Section 7.4 Missing Values](https://byuidatascience.github.io/python4ds/exploratory-data-analysis.html#missing-values-2)
+- [P4DS: CH4 Data Transformation](https://byuidatascience.github.io/python4ds/transform.html)
+- [P4DS: CH6 Tidy Data](https://byuidatascience.github.io/python4ds/tidy-data.html)
+- [P4DS: CH11 Visualization](https://aeturrell.github.io/python4DS/visualise.html)
+- [P4DS: CH12 Layers](https://aeturrell.github.io/python4DS/vis-layers.html)
+- [P4DS: CH13 Exploratory Data Analysis](https://byuidatascience.github.io/python4ds/exploratory-data-analysis.html)
+- [P4DS: CH21 Missing Values](https://aeturrell.github.io/python4DS/missing-values.html)
+- [P4DS: Ch25.3 JSON](https://aeturrell.github.io/python4DS/rectangling.html#json-java-script-object-notation)
+
 - [Python Data Science Handbook: Missing Data](https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html)
 - [Handling Missing Data](https://towardsdatascience.com/machine-learning-handling-missing-data-27b09ab146ba)
 - [Wikipedia Missing Data](https://en.wikipedia.org/wiki/Missing_data)

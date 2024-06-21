@@ -34,11 +34,12 @@ __Information:__ [Article](https://fivethirtyeight.com/features/americas-favorit
 
 
 ### Readings
-
-* [Python for Data Science: Tidy Data](https://byuidatascience.github.io/python4ds/tidy-data.html)
-* [Python for Data Science: Graphics for Communication](https://byuidatascience.github.io/python4ds/graphics-for-communication.html)
-* [Python for Data Science: Strings](https://byuidatascience.github.io/python4ds/strings.html)
-
+- [P4DS: CH6 Tidy Data](https://byuidatascience.github.io/python4ds/tidy-data.html)
+- [P4DS: CH14 Graphics for Communication](https://aeturrell.github.io/python4DS/communicate-plots.html)
+- [P4DS: CH16 Numbers](https://aeturrell.github.io/python4DS/numbers.html)
+- [P4DS: CH17 Strings and Text](https://aeturrell.github.io/python4DS/strings.html)
+- [P4DS: Ch18 Regular Expressions](https://aeturrell.github.io/python4DS/regex.html)
+- [P4DS: CH19 Categorical Data](https://aeturrell.github.io/python4DS/categorical-data.html)
 
 #### Optional References
 

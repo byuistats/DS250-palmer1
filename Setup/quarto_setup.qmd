@@ -22,7 +22,7 @@ We use this perfect union of Jupyter Notebooks and RMarkdown for reporting on ou
 
 ### Markdown
 
-Markdown is a plain text formatting syntax aimed at making writing more accessible. The philosophy behind Markdown is that plain text documents should be readable without tags making a mess, but there should still be ways to add text modifiers like lists, bold, italics, etc. It is an alternative to WYSIWYG (what you see is what you get) editors, which use rich text that later gets converted to proper HTML.[^1]
+Markdown is a plain text formatting syntax aimed at making writing more accessible. The philosophy behind Markdown is that plain text documents should be readable without tags making a mess, but there should still be ways to add text modifiers like lists, bold, italics, etc. It is an alternative to WYSIWYG (what you see is what you get) editors, which use rich text that later gets converted to proper HTML.
 
 
 ### Quarto Basics
@@ -43,8 +43,12 @@ You will need to install the Quarto CLI and then go through the VS Code directio
 ```
 
 
-#### Continue to Install Python Libraries
-[Install Python Libraries](/Setup/python_lib.qmd)
+### Quarto Preview Tip
+When clicking on the Preview Icon ![](/images/quarto_preview_icon.png){width=50} in the top right of your `.qmd` file, some students experience the `preview` rendering their entire course website. If this is the case, you can fix it by only opening the `project.qmd` file you are working on in VS-Code instead of opening the entire course folder.
+
+
+#### Continue to Git and GitHub
+[Install Git and GitHub](/Setup/git_github_setup.qmd)
 
 <!-- ```Python
 #%%

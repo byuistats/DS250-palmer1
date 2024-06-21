@@ -23,5 +23,10 @@ Python.org is the only place you should install VS Code from (link below)
 - [Python](https://python.org/downloads)
 
 
-#### Continue to Install VS Code
-[Install VS Code](/Setup/vs_code_setup.qmd)
+#### Install Python on Windows
+Make sure to check the box that says `Add Python to PATH` before clicking `Install Now`. Sometimes it is phrased as `Add Python to environment variables`.  
+![](/images/python_env_var.png){width=400}
+
+
+#### Continue to Install Python Libraries
+[Install Python Libraries](/Setup/python_lib.qmd)

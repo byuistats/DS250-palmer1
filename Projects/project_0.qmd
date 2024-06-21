@@ -20,7 +20,7 @@ keywords: [""]
 
 ::: {.callout-note collapse="true"}
 
-We will complete six projects during the semester that each take about two weeks (four days of class).  On average, a student will spend 2 hours outside of class per hour in class to complete the assigned readings, submit any Canvas items, and complete the project (for a total of 8 hours per project). The instruction for each project will be structured into sections as written on this page. 
+We will complete six projects during the semester that each take about two weeks (four days of class).  On average, a student will spend 2 hours outside of class per hour in class to complete the assigned readings, submit any Canvas items, and complete the project **(for a total of 8 hours per project)**. The instruction for each project will be structured into sections as written on this page. 
 
 This first Background section provides context for the project. Make sure you read the background carefully to see the big picture needs and purpose of the project.
 :::
@@ -49,14 +49,16 @@ We recommend reading through the assigned material once for a general understand
 The readings listed below are required for the first two days of class.
 
 - [Course Setup](../setup.qmd)
-- [Learn about VS Code](../Course%20Materials/vs_code.qmd)
-- [Learn about Plotly Express](../Course%20Materials/plotly_express.qmd)
 - [Learn about our Book Python for Data Science](../Course%20Materials/python.qmd)
+- [PY4DS: First Steps](https://aeturrell.github.io/python4DS/introduction.html)
+- [PY4DS: CH1 Whole Game](https://aeturrell.github.io/python4DS/whole-game.html)
 - [Quarto Instructional Template for DS](../Templates/ds250_project_template.qmd)
-- [Python for Data Science (P4DS): Introduction](https://byuidatascience.github.io/python4ds/introduction.html)
+<!-- - [Python for Data Science (P4DS): Introduction](https://byuidatascience.github.io/python4ds/introduction.html) -->
+
 
 #### Optional References
-
+- [Learn about VS Code](../Course%20Materials/vs_code.qmd)
+- [Learn about Plotly Express](../Course%20Materials/plotly_express.qmd)
 - [VS Code user interface](https://code.visualstudio.com/docs/getstarted/userinterface) 
 - [Reading Technical Documentation](https://byui-cse.github.io/cse450-course/course/reading-technical-documentation.html)
 
