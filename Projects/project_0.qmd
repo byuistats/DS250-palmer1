@@ -89,7 +89,7 @@ In the DS 250 folder of the Course Work Portfolio, edit the `Project0.qmd` quart
 Deliverables are “the quantifiable goods or services that must be provided upon the completion of a project”. In this class the deliverable for each project is a GitHub published report created using Quarto files. This final section will be the same for each project. 
 :::
 
-_Use this [template](/Templates/ds250_project_template_clean.qmd) to submit your Client Report. The template has two sections:_
+_Use this [template](../Templates/ds250_project_template.qmd) to submit your Client Report. The template has two sections:_
 
 1. _A short elevator pitch that highlights key values or metrics from the results. Describing these key insights to interest or hook the reader to want to read more about your work. The writing style should be more technical with some creative elements. Do not summarize what you did._  
 2. _Answers to the questions | tasks. Each answer should include a written description of your results, code cells with comments, charts, and/or tables._  

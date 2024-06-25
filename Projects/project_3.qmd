@@ -101,7 +101,7 @@ Here is an example Stretch question(s) for this project. Your instructor may ass
 
 ### Deliverables
 
-_Use this [template](/Templates/ds250_project_template_clean.qmd) to submit your Client Report. The template has two sections:_
+_Use this [template](../Templates/ds250_project_template.qmd) to submit your Client Report. The template has two sections:_
 
 1. _A short elevator pitch that highlights key values or metrics from the results. Describing these key insights to interest or hook the reader to want to read more about your work. The writing style should be more technical with some creative elements. Do not summarize what you did._
 1. _Answers to the questions | tasks. Each answer should include a written description of your results, code cells with comments, charts, and/or tables._  
