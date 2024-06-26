@@ -30,7 +30,9 @@ execute:
 #| include: false
 import pandas as pd
 import numpy as np
-import plotly.express as px
+from lets_plot import *
+
+LetsPlot.setup_html()
 ```
 
 
@@ -73,11 +75,9 @@ _include figures in chunks and discuss your findings in the figure._
 #| fig-cap: "My useless chart"
 #| fig-align: center
 # Include and execute your code here
-chart = px.bar(df.head(200),
-    x="name", 
-    y="AK"
+(
+  ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')
 )
-chart.show()
 ```
 
 
@@ -122,11 +122,9 @@ _include figures in chunks and discuss your findings in the figure._
 #| fig-align: center
 
 # Include and execute your code here
-# chart = px.bar(df.head(200),
-#     x="name", 
-#     y="AK"
+# (
+#   ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')
 # )
-# chart.show()
 
 ```
 
@@ -171,11 +169,10 @@ _include figures in chunks and discuss your findings in the figure._
 #| fig-cap: "My useless chart"
 #| fig-align: center
 # Include and execute your code here
-# chart = px.bar(df.head(200),
-#     x="name", 
-#     y="AK"
+# Include and execute your code here
+# (
+#   ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')
 # )
-# chart.show()
 ```
 
 

@@ -32,12 +32,14 @@ _THIS `.qmd` IS INSTRUCTIONAL AND SHOULD `NOT` BE USED TO WRITE YOUR REPORTS (EX
 #| include: false
 import pandas as pd
 import numpy as np
-import plotly.express as px
+from lets_plot import *
+
+LetsPlot.setup_html()
 ```
 
 
 ## Elevator pitch
-_A SHORT (2-3 SENTENCES) PARAGRAPH THAT `DESCRIBES KEY INSIGHTS` TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS._
+_A SHORT (2-3 SENTENCES) PARAGRAPH THAT `DESCRIBES KEY INSIGHTS` TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS._ (Note: this is not a summary of the project, but a summary of the results.)
 
 _A Client has requested this analysis and this is your one shot of what you would say to your boss in a 2 min elevator ride before he takes your report and hands it to the client._
 
@@ -88,11 +90,9 @@ __COPY PASTE QUESTION|TASK 2 FROM THE PROJECT HERE__
 #| fig-align: center
 # Include and execute your code here
 
-chart = px.scatter(df.head(500),
-    x="displ", 
-    y="hwy"
+(
+  ggplot(df.head(500), aes(x='displ', y='hwy')) + geom_point()
 )
-chart.show()
 ```
 
 ## Question|Task 3
