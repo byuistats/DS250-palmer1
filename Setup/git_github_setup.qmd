@@ -83,12 +83,12 @@ Note: Changes have been made to this course since the video was recorded. The vi
         * __Click the Blue Button `Push origin`__  
         ![](/Images/gh_push_origin.png){width=500}  
 
-1. __Git your Resume in your Portfolio ([Learn Markdown](/Workbooks/wb1.qmd))__  
+<!-- 1. __Git your Resume in your Portfolio ([Learn Markdown](/Workbooks/wb1.qmd))__  
     * __Edit the `resume.qmd` file in the Course Work Portfolio use markdown to to populate your resume__  
-    * __Push your results to GitHub with GitHub Desktop.__   
+    * __Push your results to GitHub with GitHub Desktop.__    -->
 
 
-#### GitHub Portfolio Conversion to use Docs
+<!-- #### GitHub Portfolio Conversion to use Docs
 
 1. __Convert your Course Work Portfolio to use Docs__
     a. __Convert your Portfolio to use the `docs` folder for the site__  
@@ -114,4 +114,4 @@ Note: Changes have been made to this course since the video was recorded. The vi
         * __Type a commit message and click the Blue Button `Commit to main`__  
         ![](/Images/gh_commit_main.png){width=300}  
         * __Click the Blue Button `Push origin`__  
-        ![](/Images/gh_push_origin.png){width=500}  
+        ![](/Images/gh_push_origin.png){width=500}   -->

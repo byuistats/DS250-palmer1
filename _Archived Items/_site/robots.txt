@@ -1,1 +1,0 @@
-Sitemap: https://byuistats.github.io/DS250-Course/sitemap.xml

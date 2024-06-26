@@ -131,9 +131,9 @@ website:
         # - text: "Altair"
         #   file: Course Materials/altair.qmd
         # - text: "---"
-        - text: "Plotly Express"
-          file: Course Materials/plotly_express.qmd
-        - text: "---"
+        # - text: "Plotly Express"
+        #   file: Course Materials/plotly_express.qmd
+        # - text: "---"
         - text: "Python for Data Science"
           file: Course Materials/python.qmd
         - text: "---"

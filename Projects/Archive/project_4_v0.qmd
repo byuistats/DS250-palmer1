@@ -39,10 +39,9 @@ __Information:__ [Data description](https://github.com/byuidatascience/data4dwel
 
 ### Readings
 
-- [Machine Learning Introduction](/Course%20Materials/ml.qmd) (Skimi)
-- [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) (Read)
-- [P4DS: CH22 Joins](https://aeturrell.github.io/python4DS/joins.html) (Read)
-- [How to choose a good evaluation metric for your Machine learning model](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/) (Skim)
+- [Machine Learning Introduction](/Course%20Materials/ml.qmd)
+- [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+- [How to choose a good evaluation metric for your Machine learning model](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/)  
 
 
 #### Optional References
@@ -74,29 +73,13 @@ Here is an example Stretch question(s) for this project. Your instructor may ass
 1. __Can you build a model that predicts the year a house was built?__ Explain the model and the evaluation metrics you would use to determine if the model is good.
 
 
-### Submission:
-::: {.callout-note collapse="true"}
-When you have completed the report, you will need to follow this process to submit your work:
+### Deliverables
 
-1. __Before you begin__ you must `Click` the link in the email from GitHub to join your class group in the `BYUI-math-dept` org in GitHub. (If you have not received an email, please DM your teacher in Slack, this invitation does expire after 7 days so please dont delay in accepting the invitation)
-1. Have the Course Work Portfolio open in VS Code
-1. Click `Termanal` in VS Code and open a new terminal
-1. In the terminal, type `quarto render` and press enter
-    a. This will render the entire course work portfolio into `HTML` files
-    b. This will move all those files into the `docs` folder
-    c. This can take a few minutes to complete
-    d. If there is an error in any cell of the quarto files, the rendering will stop and you will need to fix the error before rendering again (if you get stuck post your error in Slack)
-1. Once the report is rendered, open the `GitHub Desktop` application
-1. Type a summary of the changes in the `Summary` box
-1. Click `Commit to main` blue button in the bottom left corner
-1. Click `Push origin` blue button in the middle right of the screen
-:::
-
-
-### Deliverables:
-
-_Use this [template](../Templates/ds250_project_template.qmd) to submit your Client Report. The template has two sections:_
+_Use this [template](/Templates/ds250_project_template_clean.qmd) to submit your Client Report. The template has two sections:_
 
 1. _A short elevator pitch that highlights key values or metrics from the results. Describing these key insights to interest or hook the reader to want to read more about your work. The writing style should be more technical with some creative elements. Do not summarize what you did._  
-1. _Answers to the questions | tasks. Each should include a written description of your results, code cells with comments, charts and/or tables._  
-1. _A short __summary of work must__ be submitted in the comments in Canvas wwhen you submit the URL. Rate your own work on a scale of 1-5. 1 being poor and 5 being excellent. Include a short description of why you rated your work the way you did._
+1. _Answers to the questions | tasks. Each answer should include a written description of your results, code cells with comments, charts, and/or tables._  
+
+::: {.callout-note collapse="false"}
+_Your report should be written in quarto markdown files and pushed to GitHub which will render it to HTML. Submit a URL of the rendered project in Canvas. (Do not submit the URL to the GitHub `.qmd` file)_  
+:::

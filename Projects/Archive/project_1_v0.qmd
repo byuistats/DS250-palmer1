@@ -54,16 +54,18 @@ The Readings section will contain links to reading assignments that are required
 We recommend reading through the assigned material once for a general understanding **before the first day of each project**.  You will reread and reference the material multiple times as you complete the project.
 :::
 
-- [P4DS: CH7 Workflow: Writing Code](https://aeturrell.github.io/python4DS/workflow-writing-code.html) (Skim)
-- [P4DS: CH8 Data Import](https://aeturrell.github.io/python4DS/data-import.html) (Read)
-- [P4DS: CH14 Graphics for Communication](https://aeturrell.github.io/python4DS/communicate-plots.html) (Read)
-
+<!-- - [Python for Data Science (P4DS): Data Visualization](https://byuidatascience.github.io/python4ds/data-visualisation.html)  -->
+- [Python for Data Science (P4DS): Data Visualization](visualize.qmd)
+- [P4DS: Graphics for Communication](https://byuidatascience.github.io/python4ds/graphics-for-communication.html)
+- [P4DS: Markdown](https://byuidatascience.github.io/python4ds/markdown.html)
+- [P4DS: 5.2 Filter rows with .query()](https://byuidatascience.github.io/python4ds/transform.html#filter-rows-with-.query)
+- [P4DS: Chapter 10 DataFrame](https://byuidatascience.github.io/python4ds/dataframe.html)
 
 #### Optional References
 
 - [The query method](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#the-query-method)
-- [Easy Data Visualiztation for Tidy Data with Lets-Plot](https://aeturrell.github.io/coding-for-economists/vis-letsplot.html)
-- [Explore Your Data with Lets-Plot](https://lets-plot.org/python/index.html#explore-your-data-with-lets-plot)
+- [Plotly and Pandas](https://medium.com/@guandika8/combining-the-powers-of-plotly-and-pandas-for-effective-data-visualization-a2b0586f970)
+- [Viz with Plotly](https://towardsdatascience.com/visualization-with-plotly-express-comprehensive-guide-eb5ee4b50b57)
 
 
 ### Questions and Tasks (Core)
@@ -74,13 +76,11 @@ This section lists the questions and tasks that need to be completed for the pro
 There are two types of questions: Core and Stretch. Core questions are required for each project. The course syllabus [competencies](../Syllabus/competency.qmd) requires specic a number of projects having all the Stretch questions achived based on your goals for the grade level you are seeking.
 :::
 
-In the DS 250 folder of the Course Work Portfolio, edit the `Project1.qmd` quarto file to build a report that includes the following:  
-
 __For Project 1 the answer to each question should include a chart **and** a written response. The years labels on your charts should not include a comma. At least **two** of your charts must include reference marks.__  
 
 1. __How does your name at your birth year compare to its use historically?__  
 1. __If you talked to someone named Brittany on the phone, what is your guess of his or her age? What ages would you not guess?__  
-1. __Mary, Martha, Peter, and Paul are all Christian names. From 1920 - 2000, compare the name usage of each of the four names in a single chart. What trends do you notice?__  
+1. __Mary, Martha, Peter, and Paul are all Christian names. From 1920 - 2000, compare the name usage of each of the four names. What trends do you notice?__  
 1. __Think of a unique name from a famous movie. Plot the usage of that name and see how changes line up with the movie release. Does it look like the movie had an effect on usage?__  
 
 
@@ -93,48 +93,17 @@ Here is an example Stretch question(s) for this project. Your instructor may ass
     ![](/Images/elliot_chart.png)
 
 
-### Submission:
-::: {.callout-note collapse="true"}
-When you have completed the report, you will need to follow this process to submit your work:
-
-1. __Before you begin__ you must `Click` the link in the email from GitHub to join your class group in the `BYUI-math-dept` org in GitHub. (If you have not received an email, please DM your teacher in Slack, this invitation does expire after 7 days so please dont delay in accepting the invitation)
-1. Have the Course Work Portfolio open in VS Code
-1. Click `Termanal` in VS Code and open a new terminal
-1. In the terminal, type `quarto render` and press enter
-    a. This will render the entire course work portfolio into `HTML` files
-    b. This will move all those files into the `docs` folder
-    c. This can take a few minutes to complete
-    d. If there is an error in any cell of the quarto files, the rendering will stop and you will need to fix the error before rendering again (if you get stuck post your error in Slack)
-1. Once the report is rendered, open the `GitHub Desktop` application
-1. Type a summary of the changes in the `Summary` box
-1. Click `Commit to main` blue button in the bottom left corner
-1. Click `Push origin` blue button in the middle right of the screen
-:::
-
-
-### Deliverables:
+### Deliverables
 
 ::: {.callout-note collapse="true"}
 Deliverables are “the quantifiable goods or services that must be provided upon the completion of a project”. In this class the deliverable for each project is a GitHub published report created using Quarto files. This final section will be the same for each project. 
 :::
 
-_Use this [template](../Templates/ds250_project_template.qmd) to submit your Client Report. The template has two sections:_
+_Use this [template](/Templates/ds250_project_template_clean.qmd) to submit your Client Report. The template has two sections:_
 
 1. _A short elevator pitch that highlights key values or metrics from the results. Describing these key insights to interest or hook the reader to want to read more about your work. The writing style should be more technical with some creative elements. Do not summarize what you did._  
-1. _Answers to the questions | tasks. Each should include a written description of your results, code cells with comments, charts and/or tables._  
-1. _A short __summary of work must__ be submitted in the comments in Canvas wwhen you submit the URL. Rate your own work on a scale of 1-5. 1 being poor and 5 being excellent. Include a short description of why you rated your work the way you did._
+1. _Answers to the questions | tasks. Each answer should include a written description of your results, code cells with comments, charts, and/or tables._  
 
-::: {.callout-note collapse="true"}
-_Your report should be written in quarto markdown files and pushed to GitHub. Submit a URL of the rendered project in Canvas. (Do not submit the URL to the GitHub `.qmd` file)_  
-:::
-
-
-### Feedback:
 ::: {.callout-note collapse="false"}
-You will recieve feedback and/or coaching notes in the form of a GitHub issue. You will need to address the feedback, re-render and resubmit the project, and mark the GitHub issue as closed.
-:::
-
-### Resubmission:
-::: {.callout-note collapse="false"}
-You will have __one__ opportunity to resubmit the project after you have received feedback. The window for the resubmission will be open through the __Wednesday__ following the due date of the project. Therefore it is recomended that you turn in a draft of the project early on the __Thursday__ before the due date to ensure you have time to address any feedback and resubmit the project. It is acceptable to turn in a draft that is only 80% complete. This will allow you to get feedback on the majority of the project and then focus on the final details. The closer to that Thursday you turn in the draft the more feedback and coaching you will recieve.
+_Your report should be written in quarto markdown files and pushed to GitHub which will render it to HTML. Submit a URL of the rendered project in Canvas. (Do not submit the URL to the GitHub `.qmd` file)_  
 :::
