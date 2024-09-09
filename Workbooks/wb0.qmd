@@ -48,10 +48,8 @@ The [data science lab](hhttps://byuidatascience.github.io/lab/) is a resource yo
 :::
 ---
 
-## Learn about Plotly Express
-- [Learn about Plotly Express](../Course%20Materials/plotly_express.qmd)
-## Note on the Data Visualization Chapter in `Python for DataScience`
-- We will not be using Altair as the book does, we will use Plotly Express instead
-- All Altair chart will have a Plotly alternative
+## Learn about Lets-Plot
+- [Learn about Lets-Plot](https://aeturrell.github.io/python4DS/data-visualise.html)
+
 :::
 ---

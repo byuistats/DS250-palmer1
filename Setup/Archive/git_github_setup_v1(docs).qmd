@@ -34,33 +34,27 @@ Note: Changes have been made to this course since the video was recorded. The vi
 
 1. [Install](https://desktop.github.com/) GitHub Desktop  
 
+<!-- 1. Connect to our BYU-I organizations on GitHub (optional)  
+    * [BYU-I Data Science Society](https://posit.byui.edu/connect/#/apps/ef78adcd-d72b-4e3f-ac45-3e5e662fbd73/access) _default organization_   -->
+
 1. __Git a Course Work Portfolio in GitHub__
     a.  __Use the Portfolio Template in Data Science GitHub repo__
-        * __Navigate to the [Course Work Portfolio](https://github.com/byuidatascience/course_work_portfolio) in GitHub__  
+        * __Navigate to the [Course Work Portfolio](https://github.com/byuidatascience/course_work_portfolio_docs) in GitHub__  
         * __Click the Green Button `Use this template` and select `Create a new repository`__  
-        * __Check the box to `Include all branches`__  
         ![](/Images/gh_template.png){width=200}  
-        * __Select `byui-math-dept` as the `Owner` You should have been added to `byui-math-dept` by your teacher if you dont see it ask them to add you. This Org uses SSO with BYUI, if you dont have your BYUI email in your GitHub account you need to add it (account -> settings -> emails -> add email address) If you have performed all these steps and still dont see it look for a badge above `Repository template` that states `Single sign-on to see results in the byui-math-dept organization.` Follow that link to sign in with SSO then you will be able to choose  `byui-math-dept` as the `Owner`__  
+        * __Select `byui-math-dept` as the `Owner` You should have been added to `byui-math-dept` by your teacher if you dont see it ask them to add you. This Org uses SSO with BYUI, if you dont have your BYUI email in your GitHub account you need to add it (account -> settings -> emails -> add email address)__  
         ![](/Images/gh_math_owner.png){width=400}  
         * __Name the repository as your GitHub `username` + `_` + `your first semester and year`all lowercase (see example in image above)__  
         * __Select `Private` as the type of Repo, then click `Create Repository`__  
         ![](/Images/gh_private.png){width=500}  
 
-    a. __Create a new branch `gh-pages` if you forgot to check the `include all branches` box (skip otherwise)__
-        * __Click the `Branch: main` button then `view all branches`__  
-        ![](/Images/gh_view_all_branches.png){width=300}
-        * __Click the `New Branch` button__  
-        ![](/Images/gh_new_branch.png){width=200}
-        * __Name the branch `gh-pages` and click the Green Button `Create new branch`__  
-        ![](/Images/gh_create_new_branch.png){width=300} 
-
-    a.  __Modify Pages Settings for Build and deployment from `main` to `gh-pages`:__
+    a.  __Modify Pages Settings for Build and deployment to be `main` and `/docs`:__
         * __Click the `Settings` tab__  
-        ![](/Images/gh_settings.png){width=300}
+        ![](/Images/gh_settings.png){width=400}  
         * __Scroll down to the `Pages` section in the left hand menu__  
-        ![](/Images/gh_pages.png){width=300}
-        * __Locate the Build and deployment section and change Branch from `main` to `gh-pages` and leave the right side as `/root`__    
-        ![](/Images/gh_gh-pages_root.png){width=750}  
+        ![](/Images/gh_pages.png){width=300}  
+        * __Locate the Build and deployment section and make sure the Source is `Deploy from a branch`, the Branch is `main`, and the folder is `/docs`. Dont forget to click `Save`__  
+        ![](/Images/gh_main_docs.png){width=500}  
 
     a.  __Clone the repository to your computer__
         * __Click the `<> Code` menu__
@@ -77,19 +71,47 @@ Note: Changes have been made to this course since the video was recorded. The vi
         * __Change the page footer `href:` to your LinkedIn profile link__
         * __Scroll to the bottom and change the theme `light:` and/or `dark:` to another theme (optional)__
 
+    a.  __Quarto Render__
+        * __Open the terminal in VS Code__
+        * __Run `quarto render` to build the site__
+
     a.  __Push the changes to GitHub via GitHub Desktop__
         * __Make sure you have the correct repo selected in the top left__  
         ![](/Images/gh_current_repo2.png){width=300}  
         * __Type a commit message and click the Blue Button `Commit to main`__  
         ![](/Images/gh_commit_main.png){width=300}  
         * __Click the Blue Button `Push origin`__  
-        ![](/Images/gh_push_origin.png){width=500} 
+        ![](/Images/gh_push_origin.png){width=500}  
 
-    a.  __Confirm the GitHub Actions are working__
-        * __Navigate to the repo in GitHub and click on the  `Actions` tab__  
-        ![](/Images/gh_actions.png){width=500}
-        * __Confirm the `Update _quarto.yml` is working by the yellow circle turning to a green check circle (Note: this can take 3-5min)__  
-        ![](/Images/gh_all_workflows.png){width=300}
+<!-- 1. __Git your Resume in your Portfolio ([Learn Markdown](/Workbooks/wb1.qmd))__  
+    * __Edit the `resume.qmd` file in the Course Work Portfolio use markdown to to populate your resume__  
+    * __Push your results to GitHub with GitHub Desktop.__    -->
 
-    a. __Fix the main page loading the ReadMe.md file__
-        * __Run `quarto publish gh-pages` in the terminal of VS Code__
+
+<!-- #### GitHub Portfolio Conversion to use Docs
+
+1. __Convert your Course Work Portfolio to use Docs__
+    a. __Convert your Portfolio to use the `docs` folder for the site__  
+        * __Create a new folder in your repository called `docs`__  
+        * __Update the `_quarto.yml` file to point to the `docs` folder for the site__  
+            * __Add this code to line 3 `output-dir: docs`__
+
+    a.  __Modify Pages Settings for Build and deployment to be `main` and `/docs`:__
+        * __Click the `Settings` tab__  
+        ![](/Images/gh_settings.png){width=400}  
+        * __Scroll down to the `Pages` section in the left hand menu__  
+        ![](/Images/gh_pages.png){width=300}  
+        * __Locate the Build and deployment section and make sure the Source is `Deploy from a branch`, the Branch is `main`, and the folder is `/docs`. Dont forget to click `Save`__  
+        ![](/Images/gh_main_docs.png){width=500}  
+
+    a.  __Quarto Render__
+        * __Open the terminal in VS Code__
+        * __Run `quarto render` to build the site__
+
+    a.  __Push the changes to GitHub via GitHub Desktop__
+        * __Make sure you have the correct repo selected in the top left__  
+        ![](/Images/gh_current_repo2.png){width=300}  
+        * __Type a commit message and click the Blue Button `Commit to main`__  
+        ![](/Images/gh_commit_main.png){width=300}  
+        * __Click the Blue Button `Push origin`__  
+        ![](/Images/gh_push_origin.png){width=500}   -->

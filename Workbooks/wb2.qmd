@@ -244,11 +244,13 @@ mean_value = df['column_name'].mean()
 
 
 
-# Getting started with Plotly Express
+# Getting started with Lets-Plot
 
-[Plotly Express](/Course%20Materials/plotly_express.qmd)
+- [Lets-Plot](https://aeturrell.github.io/python4DS/data-visualise.html)
 
 What makes a chart look good?
+
+Note: The following code snippets use Plotly Express for demonstartion. The course uses Lets-Plot.
 
 ```{python, filename="Title"}
 import plotly.express as px

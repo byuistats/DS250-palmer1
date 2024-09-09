@@ -46,8 +46,8 @@ The [data science lab](https://byuidatascience.github.io/lab/) is a resource you
 ---
 
 ::: {.callout-note collapse="true"}
-## Expand To See Links to Chapter in the book `Python for DataScience`
-- [Chapter on Mardown: Text and Code Chunks](https://byuidatascience.github.io/python4ds/markdown.html)
+## Expand To See Links to Chapter in the book `Python4DS`
+- [Chapter on Mardown: Text Block Syntax](https://aeturrell.github.io/python4DS/markdown.html)
 - [Additional Resource: Basic Syntax Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 :::
 ````
@@ -164,8 +164,8 @@ you can also use __mid__ sentence
 ## Pandas DataFrame (`df`)
 
 ::: {.callout-note collapse="true"}
-## Expand To See Links to Chapter in the book `Python for DataScience`
-- [Chapter on Pandas: DataFrames](https://byuidatascience.github.io/python4ds/dataframe.html)
+## Expand To See Links to Chapter in the book `Python4DS`
+- [Chapter on Pandas: DataFrames](https://aeturrell.github.io/python4DS/data-transform.html)
 :::
 
 What is a pandas dataFrame? We can read the [official documentation](https://pandas.pydf.org/pandas-docs/stable/user_guide/dsintro.html#dataframe). I also like the video in [this tutorial](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python).
@@ -225,15 +225,15 @@ df.describe()
 ## Pandas Data Transformation
 
 ::: {.callout-note collapse="true"}
-## Expand To See Links to Chapter in the book `Python for DataScience`
-- [Chapter on Pandas: Transformations](https://byuidatascience.github.io/python4ds/transform.html#filter-rows-with-.query)
+## Expand To See Links to Chapter in the book `Python4DS`
+- [Chapters Transformation: 15-22](https://aeturrell.github.io/python4DS/boolean-data.html)
 :::
 
 ---
 
-# Getting started with Plotly Express
+# Getting started with Lets-Plot
 
-[Plotly Express](/Course%20Materials/plotly_express.qmd)
+- [Lets-Plot](https://aeturrell.github.io/python4DS/data-visualise.html)
 
 <!-- ## Prove Activity - Explore Pandas and the Data
 
