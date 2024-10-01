@@ -20,7 +20,7 @@ keywords: [""]
 
 1. Select your role in education `Student`.
 
-1. Scroll down and click on `Select this School`. (Note: if you GitHub account is not your BYU-I eamil, you will need to add it to your GitHub account.)
+1. Scroll down and click on `Select this School`. (Note: if you GitHub account is not your BYU-I email, you will need to add it to your GitHub account.)
 
 1. Click the `Continue` button. (Note: you will need to allow location access in your browser in order to continue.)
 
