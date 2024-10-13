@@ -103,18 +103,25 @@ Here is an example Stretch question(s) for this project. Your instructor may ass
 ::: {.callout-note collapse="true"}
 When you have completed the report, you will need to follow this process to submit your work:
 
-1. __Before you begin__ you must `Click` the link in the email from GitHub to join your class group in the `BYUI-math-dept` org in GitHub. (If you have not received an email, please DM your teacher in Slack, this invitation does expire after 7 days so please dont delay in accepting the invitation)
-1. Have the Course Work Portfolio open in VS Code
-1. Click `Termanal` in VS Code and open a new terminal
-1. In the terminal, type `quarto render` and press enter
-    a. This will render the entire course work portfolio into `HTML` files
-    b. This will move all those files into the `docs` folder
-    c. This can take a few minutes to complete
+1. Have the Course Work Portfolio open in VS Code and open `Projects/Project0.qmd`
+1. Click `Preview Button` in VS Code in the top right of the screen
+    a. This will render the project but also entire course work portfolio into `HTML` files for review
+    b. Confirm everything displas as you would like it to
+    c. How you see it will be how it is viewed for grading
     d. If there is an error in any cell of the quarto files, the rendering will stop and you will need to fix the error before rendering again (if you get stuck post your error in Slack)
-1. Once the report is rendered, open the `GitHub Desktop` application
+1. Once the report is confirmed close the preview and open the `GitHub Desktop` application
 1. Type a summary of the changes in the `Summary` box
 1. Click `Commit to main` blue button in the bottom left corner
 1. Click `Push origin` blue button in the middle right of the screen
+    a. This will push all your changes in the project .qmd file to GitHub
+    b. The publish.yml file will kick off an automated process to render the project into HTML files
+    c. The HTML files will be published to GitHub pages in the gh-pages branch
+    d. The URL to the published project will be in the deployment section in GitHub
+        1. In `GitHub Desktop` click `Open in GitHub` to navigete to the repository
+        2. Click on the `Actions` tab and make sure there were no errors in the rendering process
+        3. Click on the `deployment` section of the main page of the repository to find the URL
+        4. Navigate to the URL and confirm it displays as you intended
+        5. Copy the URL and submit it in Canvas
 :::
 
 

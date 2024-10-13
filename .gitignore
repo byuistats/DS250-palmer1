@@ -1,6 +1,7 @@
-/.quarto/
-/_site/
-.ipynb
-.html
-.css
-**/Archive/
+/.quarto
+/_site
+*.ipynb
+*.html
+*.css
+**/Archive
+/_Archived Items
