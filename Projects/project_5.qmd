@@ -29,7 +29,7 @@ The Client is who performed the survey but outsourced the analitics to a 3rd par
 
 ### Data
 
-__Download:__ [StarWars.csv](https://github.com/fivethirtyeight/data/raw/master/star-wars-survey/StarWars.csv)   
+__URL:__ [StarWars.csv](https://github.com/fivethirtyeight/data/raw/master/star-wars-survey/StarWars.csv)   
 __Information:__ [Article](https://fivethirtyeight.com/features/americas-favorite-star-wars-movies-and-least-favorite-characters/)
 
 
@@ -86,6 +86,8 @@ When you have completed the report, you will need to follow this process to subm
     c. How you see it will be how it is viewed for grading
     d. If there is an error in any cell of the quarto files, the rendering will stop and you will need to fix the error before rendering again (if you get stuck post your error in Slack)
 1. Once the report is confirmed close the preview and open the `GitHub Desktop` application
+1. Confirm you are in the correct repository in the top left corner of the screen
+1. Confirm you are on the correct branch `Main` in the top left corner of the screen (Never change off the `Main` branch)
 1. Type a summary of the changes in the `Summary` box
 1. Click `Commit to main` blue button in the bottom left corner
 1. Click `Push origin` blue button in the middle right of the screen

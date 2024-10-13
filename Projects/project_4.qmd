@@ -31,9 +31,9 @@ The Client is a state agency in Colorado that is responsible for the health and 
 
 ### Data
 
-__Download:__  [dwellings_ml.csv (ml ready)](https://github.com/byuidatascience/data4dwellings/raw/master/data-raw/dwellings_ml/dwellings_ml.csv)  
-__Optional Data:__  [dwellings_neighborhoods_ml.csv (ml ready)](https://github.com/byuidatascience/data4dwellings/raw/master/data-raw/dwellings_neighborhoods_ml/dwellings_neighborhoods_ml.csv)  
-__Informational Data:__  [dwellings_denver.csv (not cleansed)](https://github.com/byuidatascience/data4dwellings/raw/master/data-raw/dwellings_denver/dwellings_denver.csv)  
+__URL:__  [dwellings_ml.csv (ml ready)](https://github.com/byuidatascience/data4dwellings/raw/master/data-raw/dwellings_ml/dwellings_ml.csv)  
+__Optional URL:__  [dwellings_neighborhoods_ml.csv (ml ready)](https://github.com/byuidatascience/data4dwellings/raw/master/data-raw/dwellings_neighborhoods_ml/dwellings_neighborhoods_ml.csv)  
+__Informational URL:__  [dwellings_denver.csv (not cleansed)](https://github.com/byuidatascience/data4dwellings/raw/master/data-raw/dwellings_denver/dwellings_denver.csv)  
 __Information:__ [Data description](https://github.com/byuidatascience/data4dwellings/blob/master/data.md)  
 
 
@@ -85,6 +85,8 @@ When you have completed the report, you will need to follow this process to subm
     c. How you see it will be how it is viewed for grading
     d. If there is an error in any cell of the quarto files, the rendering will stop and you will need to fix the error before rendering again (if you get stuck post your error in Slack)
 1. Once the report is confirmed close the preview and open the `GitHub Desktop` application
+1. Confirm you are in the correct repository in the top left corner of the screen
+1. Confirm you are on the correct branch `Main` in the top left corner of the screen (Never change off the `Main` branch)
 1. Type a summary of the changes in the `Summary` box
 1. Click `Commit to main` blue button in the bottom left corner
 1. Click `Push origin` blue button in the middle right of the screen
