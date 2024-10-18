@@ -128,6 +128,9 @@ website:
         - text: "VS Code"
           file: Course Materials/vs_code.qmd
         - text: "---"
+        - text: "Lets Plot"
+          file: Course Materials/lets_plot.qmd
+        - text: "---"
         # - text: "Altair"
         #   file: Course Materials/altair.qmd
         # - text: "---"

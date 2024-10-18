@@ -27,10 +27,11 @@ Note: Changes have been made to this course since the video was recorded. The vi
     * [Windows](https://git-scm.com/download/win) Installation
         Note: Keep all settings as default during installation
     * [Mac](https://git-scm.com/download/mac) Installation  
-        Note: Mac users can install git using [homebrew](https://brew.sh/) by running `brew install git` in the terminal. You will need to install [homebrew](https://brew.sh/) first if you don't have it  
+        Note: Mac users can install git using [homebrew](https://brew.sh/) by running `brew install git` in the terminal. You will need to install [homebrew](https://brew.sh/) first if you don't have it   
 
-1. Create a [GitHub](https://education.github.com/discount_requests/application) Student Account with your BYUI-I email. 
-    * Use an [appropriate username](https://workplace.stackexchange.com/questions/83967/does-my-employer-care-about-my-github-username). It will be the name of your public profile and website in Project 6.  
+1. Create a [GitHub](https://github.com/join) Account with your `BYUI-I email`. 
+    * Use an [appropriate username](https://workplace.stackexchange.com/questions/83967/does-my-employer-care-about-my-github-username). It will be the name of your public profile and website in Project 6. 
+    * If you already have a GitHub account, you can add your BYUI-I email to your existing account. Go to `Settings` -> `Emails` -> `Add email address` and make it your primary email.
 
 1. [Install](https://desktop.github.com/) GitHub Desktop  
 
@@ -42,11 +43,20 @@ Note: Changes have been made to this course since the video was recorded. The vi
         ![](/Images/gh_template.png){width=200}  
         * __Select `byui-math-dept` as the `Owner` You should have been added to `byui-math-dept` by your teacher if you dont see it ask them to add you. This Org uses SSO with BYUI, if you dont have your BYUI email in your GitHub account you need to add it (account -> settings -> emails -> add email address) If you have performed all these steps and still dont see it look for a badge above `Repository template` that states `Single sign-on to see results in the byui-math-dept organization.` Follow that link to sign in with SSO then you will be able to choose  `byui-math-dept` as the `Owner`__  
         ![](/Images/gh_math_owner.png){width=400}  
-        * __Name the repository as your GitHub `username` + `_` + `your first semester and year`all lowercase (see example in image above)__  
+        * __Name the repository as your GitHub `username` + `_` + `the current semester and year`all lowercase (see example in image above)__  
         * __Select `Private` as the type of Repo, then click `Create Repository`__  
         ![](/Images/gh_private.png){width=500}  
 
-    a. __Create a new branch `gh-pages` if you forgot to check the `include all branches` box (skip otherwise)__
+    a.  __Clone the repository to your computer__
+        * __Click the `<> Code` menu__
+        * __Click the Green Button `<> Code` and select `Open with GitHub Desktop`__  
+        ![](/Images/gh_open_in_desktop.png){width=400}  
+        * __Click the Button `Open in Visual Studio Code`__
+        ![](/Images/gh_open_in_vs_code.png){width=500}  
+        * __If it asks for a username and password, this is because your GitHub Desktop is not logged in to your GitHub account via SSO. Log out of your account in GitHub Desktop, be logged in in your browser to GitHub and make sure you can access the byui-math-dept org where you cloned your new portfolio. Then repete these instructions. It will log you back in to GitHub Desktop but this with with the SSO credentials__  
+
+1. __If you forgot to `Check the box to Include all branches` in the previous step (otherwise skip to the next step): Create a new branch `gh-pages`__
+    a. __Create a new branch `gh-pages`__
         * __Click the `Branch: main` button then `view all branches`__  
         ![](/Images/gh_view_all_branches.png){width=300}
         * __Click the `New Branch` button__  
@@ -62,28 +72,24 @@ Note: Changes have been made to this course since the video was recorded. The vi
         * __Locate the Build and deployment section and change Branch from `main` to `gh-pages` and leave the right side as `/root`__    
         ![](/Images/gh_gh-pages_root.png){width=750}  
 
-    a.  __Clone the repository to your computer__
-        * __Click the `<> Code` menu__
-        * __Click the Green Button `<> Code` and select `Open with GitHub Desktop`__  
-        ![](/Images/gh_open_in_desktop.png){width=400}  
-        * __Click the Button `Open in Visual Studio Code`__
-        ![](/Images/gh_open_in_vs_code.png){width=500}  
-        * __If it asks for a username and password, this is because your GitHub Desktop is not logged in to your GitHub account via SSO. Log out of your account in GitHub Desktop, be logged in in your browser to GitHub and make sure you can access the byui-math-dept org where you cloned your new portfolio. Then repete these instructions. It will log you back in to GitHub Desktop but this with with the SSO credentials__
+1. __Update the `_quarto.yml` file in course work portfolio:__
+    a. __update the `title` to includ your name__
+    b. __update the `site url` to your published site url (this will be in the deployment section in GitHub)__
+    c. __update the `repo-url` to your GitHub repository url__
+    d. __update the `issue-url` to your GitHub issue url (its the same as the repo url but with `/issues/new` at the end)__
+    e. __update the `page-footer` `left` to include your name (line 15)__
+    f. __update the `page-footer` `right` `href` to include your LinkedIn url (line 18 - optional)__
+    g. __Scroll to the bottom and change the theme `light:` and/or `dark:` to another theme (optional)__  
 
-    a.  __Update the `_quarto.yml` file__
-        * __Change the `title` to your name__
-        * __Change the `repo-rul` to a brief description of your portfolio__
-        * __Change the page-footer `left:` to your name__
-        * __Change the page footer `href:` to your LinkedIn profile link__
-        * __Scroll to the bottom and change the theme `light:` and/or `dark:` to another theme (optional)__
-
+1. __Commit and Push the changes made to GitHub__
     a.  __Push the changes to GitHub via GitHub Desktop__
         * __Make sure you have the correct repo selected in the top left__  
         ![](/Images/gh_current_repo2.png){width=300}  
         * __Type a commit message and click the Blue Button `Commit to main`__  
         ![](/Images/gh_commit_main.png){width=300}  
         * __Click the Blue Button `Push origin`__  
-        ![](/Images/gh_push_origin.png){width=500} 
+        ![](/Images/gh_push_origin.png){width=500}  
+        * __If it gives you a big long error when you push, this is because your GitHub Desktop is not logged in to your GitHub account via SSO. Log out of your account in GitHub Desktop, and log right back in__  
 
     a.  __Confirm the GitHub Actions are working__
         * __Navigate to the repo in GitHub and click on the  `Actions` tab__  
@@ -91,5 +97,6 @@ Note: Changes have been made to this course since the video was recorded. The vi
         * __Confirm the `Update _quarto.yml` is working by the yellow circle turning to a green check circle (Note: this can take 3-5min)__  
         ![](/Images/gh_all_workflows.png){width=300}
 
-    a. __Fix the main page loading the ReadMe.md file__
+1. __Fix for a common bug__
+    a. __Fix for the main page loading the ReadMe.md file instead of the portfolio website__
         * __Run `quarto publish gh-pages` in the terminal of VS Code__

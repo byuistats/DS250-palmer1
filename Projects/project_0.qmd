@@ -34,8 +34,12 @@ Python and VS Code are tools commonly used in the field of data science. During 
 Every data science project should start with data, and our class projects are no different. Each project will have __'Download'__ and __'Information'__ links like the ones below.
 :::
 
-__Download:__ [penguins data](https://aeturrell.github.io/python4DS/data-visualise.html#the-penguins-data-frame)   
+__URL:__ [penguins data](https://aeturrell.github.io/python4DS/data-visualise.html#the-penguins-data-frame)   
 
+```python
+penguins = load_penguins()
+penguins
+```
 
 ### Readings
 
@@ -71,16 +75,17 @@ This section lists the questions and tasks that need to be completed for the pro
 
 In the DS 250 folder of the Course Work Portfolio, edit the `Project0.qmd` quarto file to build a report that includes the following:  
 
-1. __Finish the [Course Setup](../setup.qmd), and post any questions to getting your environment working smoothly in your course Slack channel__  
-1. __Recreate the example chart from [PY4DS: CH2 Data Visualization](https://aeturrell.github.io/python4DS/data-visualise.html) of the textbook.__
-1. __Include the table created from [PY4DS: CH2 Data Visualization](https://aeturrell.github.io/python4DS/data-visualise.html) used to create the above chart__  
-1. __Update the `_quarto.yml` file in course work portfolio:__
-    a. update the `title` to includ your name
-    b. update the `site url` to your published site url (this will be in the deployment section in GitHub)
-    c. update the `repo-url` to your GitHub repository url
-    d. update the `issue-url` to your GitHub issue url (its the same as the repo url but with `/issues/new` at the end)
-    e. update the `page-footer` `left` to include your name
-    f. update the `page-footer` `right` `href` to include your LinkedIn url (optional)
+1. __The `project_0.qmd` file is has working code for the Penguine data set. You need to finish the project by updating its markdown so that it is a report by completing the following tasks:__
+    a. do not modify or remove any of the code cells while completing the tasks, the code is already there for you
+    a. remove the introduction header and text
+    b. update the elevator pitch per its instructions
+    c. copy and paste this question for Question|Task 1
+        1. __Recreate the example charts from [PY4DS: CH2 Data Visualization](https://aeturrell.github.io/python4DS/data-visualise.html) of the textbook.__
+    d. copy and paste this question for Question|Task 2
+        2. __Include the tables created from [PY4DS: CH2 Data Visualization](https://aeturrell.github.io/python4DS/data-visualise.html) used to create the above chart__  
+    e. remove the notes at the bottom of the file
+    f. follow the instructions in the submission section below to submit your work
+
 1. __Update the `resume.qmd` file in course work portfolio to include your updated resume using markdown. See [P4DS: CH30 Markdown](https://aeturrell.github.io/python4DS/markdown.html)__  
 
 

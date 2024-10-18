@@ -8,7 +8,7 @@ The left navigation bar is sequenced for the setup process:
 
 If you want to use a AWS Cloud Virtual Machine (VM) instead of your laptop and install Python and VS Code on that VM, start here:  
 
-1. Create an [AWS EC2 VM](/Setup/aws_setup.qmd) (optional)  
+1. Create an [AWS EC2 VM](/Setup/aws_setup.qmd) (recomended for online and non-DataScience students)  
  
 This course uses Slack as our main tool for communication and collaboration.  You will need to install Slack on your laptop and mobile device.  You will also need to create a Slack account using your BYU-Idaho email. If you have an existing account, you can either change your email to the BYU-Idaho email or you can create a new account.
 
