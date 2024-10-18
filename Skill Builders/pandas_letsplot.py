@@ -1,14 +1,12 @@
-
 #%%
 import numpy as np
 import pandas as pd
-import altair as alt 
+from lets_plot import *
+LetsPlot.setup_html(isolated_frame=True)
 
 #%%
-# data import
 url = 'https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/csv/AER/Guns.csv'
 df = pd.read_csv(url)
-
 #%%
 # 1.1 Using a line of code, select all the columns in this dfaset, assign it to a list called col_list
 
@@ -46,11 +44,12 @@ df.assign(ratio = df.murder/df.violent)
 # Create a scatter plot that shows the relationship between murder rate and violent rate for the state of Idaho.
 #     Your chart should show murder rate as the x-axis, violent as the y-axis.
 mdf = df.query("state == 'Idaho'")
+(
+ggplot(mdf, aes(x='murder', y='violent')) 
+    + geom_point()
+    + ggtitle("The Relationship Between Murder and Violence")
+)
 
-(alt.Chart(mdf)
-.encode(x = al.X("murder", scale=al.Scale(zero = False)),
-        y = al.Y("violent", scale=al.Scale(zero = False)))
-.mark_circle())
 # %%
 # Filter down the dfa set show that it only shows the dfa between 1993 and 1997
 df.query("year >= 1993 and year <= 1997")
@@ -61,12 +60,11 @@ states = ["Idaho", "Utah", "Oregon"]
 
 cdf = df.query("state in @states")
 
-(alt.Chart(cdf)
-.encode(x = al.X("year", axis = al.Axis(format = "d")),
-        y = "prisoners",
-        color = "state")
-.mark_line()
-.properties(title = "Prisoner number in the three states"))
+(
+    ggplot(cdf, aes(x='year', y='prisoners', color='state')) 
+    + geom_line() 
+    + ggtitle('Prisoner Number in the Three States')
+)
 
 #%%
 # Without using query(), finshed exercise 2,5 and 7(jsut the wrangling). 

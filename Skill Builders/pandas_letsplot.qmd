@@ -1,5 +1,5 @@
 ---
-title: "Pandas and Plotly"
+title: "Pandas and LetsPlot"
 date: 2020-05-01T11:02:05+06:00
 lastmod: 2020-09-15T10:42:26+06:00
 weight: 2
@@ -9,9 +9,9 @@ keywords: [""]
 ---
 
 ## Skill Builder
-#### Pandas and Plotly Express
+#### Pandas and LetsPlot
 
-For this skill builder, we are exploring some important functions in the package of pandas and plotly-express. DS programming requires a lot of data wrangling. Using the proper functions, we can create concise and comprehensive codes. You should be exposed to a few functions through the readings this week. 
+For this skill builder, we are exploring some important functions in the package of pandas and LetsPlot. DS programming requires a lot of data wrangling. Using the proper functions, we can create concise and comprehensive codes. You should be exposed to a few functions through the readings this week. 
 
 You may want to at least scan the readings before beginning this task since this serves as an assessment of your understanding of the assigned readings. This should be able to be finished within 60 minutes. You should work through it on your own or in a group based in your professors instruction. 
 
@@ -26,7 +26,8 @@ __Run the following code to import the data we need for this skill builder:__
 # package import
 import numpy as np
 import pandas as pd
-import plotly.express as px
+from lets_plot import *
+LetsPlot.setup_html(isolated_frame=True)
 
 # data import
 url = 'https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/csv/AER/Guns.csv'
@@ -162,10 +163,10 @@ Besides filtering, we can manipulate the data by adding new data to it. By addin
 > __Create a scatter plot that shows the relationship between murder rate and violent rate for the state of Idaho. Your chart should show murder rate as the x-axis, violent as the y-axis.__
 
 :::{.callout-tip collapse="true" title="Hint"}
-  Can you mimic this plot while using Plotly-Express?
-
-  <https://altair-viz.github.io/gallery/scatter_tooltips.html>
-  <https://plotly.com/python/line-and-scatter/>
+  Can you mimic this plot while using LetsPlot?
+  <https://lets-plot.org/>
+  <!-- <https://altair-viz.github.io/gallery/scatter_tooltips.html>
+  <https://plotly.com/python/line-and-scatter/> -->
 :::
 
 ---

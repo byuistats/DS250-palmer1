@@ -194,8 +194,8 @@ website:
         - text: "Project 0: Introduction"
           file: Skill Builders/introduction.qmd
         - text: "---"
-        - text: "Project 1: Pandas and Plotly"
-          file: Skill Builders/pandas_plotly.qmd
+        - text: "Project 1: Pandas and LetsPlot"
+          file: Skill Builders/pandas_letsplot.qmd
         - text: "---"
         - text: "Project 2: JSON & Missing"
           file: Skill Builders/json_missing.qmd
