@@ -30,7 +30,7 @@ The graphs on [Data Visualizations from Best Tickets](https://web.archive.org/we
 
 ### Client Request
 
-For this project, the Client wants SQL queries that they can use to retrieve data for use on their website without needing Python. They would also like to see the results in Plotly Express charts.
+For this project, the Client wants SQL queries that they can use to retrieve data for use on their website without needing Python. They would also like to see the results in Lets-Plot charts.
 
 
 ### Data
@@ -64,7 +64,7 @@ __Setup Instructions:__ [See SQL Setup](/Setup/sql_setup.qmd)
     a. Use the same query as above, but only include players with at least 10 at bats that year. Print the top 5 results.  
     a. Now calculate the batting average for players over their entire careers (all years combined). Only include players with at least 100 at bats, and print the top 5 results.  
 
-1. __Pick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc). Write an SQL query to get the data you need, then make a graph using Plotly Express to visualize the comparison. What do you learn?__  
+1. __Pick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc). Write an SQL query to get the data you need, then make a graph using Lets-Plot to visualize the comparison. What do you learn?__  
 
 
 ### Questions and Tasks (Stretch)
