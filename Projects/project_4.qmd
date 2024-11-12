@@ -17,7 +17,7 @@ keywords: [""]
 
 ### Background
 
-The clean air act of 1970 was the beginning of the end for the use of asbestos in home building.  By 1976, the U.S. Environmental Protection Agency (EPA) was given authority to restrict the use of asbestos in paint. Homes built during and before this period are known to have materials with asbestos YOu can [read more about this ban](https://www.asbestos.com/mesothelioma-lawyer/legislation/ban/).  
+The clean air act of 1970 was the beginning of the end for the use of asbestos in home building.  By 1976, the U.S. Environmental Protection Agency (EPA) was given authority to restrict the use of asbestos in paint. Homes built during and before this period are known to have materials with asbestos You can [read more about this ban](https://www.asbestos.com/mesothelioma-lawyer/legislation/ban/).  
 
 The state of Colorado has a large portion of their residential dwelling data that is missing the year built and they would like you to build a predictive model that can __classify__ if a house is built pre 1980.  
 
@@ -39,7 +39,7 @@ __Information:__ [Data description](https://github.com/byuidatascience/data4dwel
 
 ### Readings
 
-- [Machine Learning Introduction](/Course%20Materials/ml.qmd) (Skimi)
+- [Machine Learning Introduction](/Course%20Materials/ml.qmd) (Skim)
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) (Read)
 - [P4DS: CH22 Joins](https://aeturrell.github.io/python4DS/joins.html) (Read)
 - [How to choose a good evaluation metric for your Machine learning model](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/) (Skim)
