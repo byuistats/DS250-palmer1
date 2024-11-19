@@ -14,7 +14,7 @@ keywords: [""]
 ---
 
 ## Data
-[Link to data](/Data/machine_learning.csv)
+[Link to data](../Data/machine_learning.csv)
 
 ---
 
