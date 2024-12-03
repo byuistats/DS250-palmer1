@@ -24,7 +24,7 @@ This skill builder focuses on munging (formatting) data into a machine learning 
 We will be using an IMDB Ratings dataset. It contains columns that are categorical. Sklearn
 cannot handle columns that are strings, so we need to convert these into a numerical representation.  We accomplish this by either one hot encoding, label encoding, or taking just one value of the range provided. There are many other  ways to represent these columns as numbers, but they are beyond the scope of this course. 
 
-Once you've converted all columns to numeric, in an intelligent way, you will be asked to recreate a graph using plotly express. Here is the head of the data you will be working with. Enjoy!
+Once you've converted all columns to numeric, in an intelligent way, you will be asked to recreate a graph using Lets-Plot. Here is the head of the data you will be working with. Enjoy!
 
 |   star_rating | content_rating   | genre   |   duration | box_office_rev            | major_hit   |
 |--------------:|:-----------------|:--------|-----------:|:--------------------------|:------------|
