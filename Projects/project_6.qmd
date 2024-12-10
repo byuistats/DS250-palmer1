@@ -90,7 +90,7 @@ __Portfolio:__ [BYUI Data Science Portfolio](https://github.com/byuidatascience/
 
     a.  __Update the `_quarto.yml` file__
         * __Change the `title` to your name__
-        * __Change the `repo-rul` to a brief description of your portfolio__
+        * __Change the `repo-url` to your code repository url__
         * __Change the page-footer `left:` to your name__
         * __Change the page footer `href:` to your LinkedIn profile link__
         * __Scroll to the bottom and change the theme `light:` and/or `dark:` to another theme (optional)__
