@@ -14,6 +14,7 @@ keywords: [""]
 <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/41338032/partner_id/1157612?iframeembed=true&playerId=kaltura_player&entry_id=1_m4ka8cia&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_jv5tibva" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="W06 - DS Portfolio"></iframe>
 ```
 
+
 ### Background
 
 GitHub is an online platform where data scientists and developers can communicate and share work. It has also morphed into a tool to house all your work in a portfolio. Think about an Art student and how they have to develop their portfolio of various skills they have across the art classes. Similarly you will want to showcase you skillset across the Data Science skillsets. 
@@ -22,10 +23,12 @@ As students, you will want to curate your creative work on GitHub using a progra
 
 Many people store their personal websites, blogs, and project websites on GitHub.  Our textbook and course are hosted on GitHub, and you can see [J. Hathaway's](http://jhathaway.io/) or [Ryan Hafen's](https://ryanhafen.com/) personal Data Science websites that are hosted on GitHub as well. 
 
-For this project, you will be making a public website that is a data science portfolio that will be hosted on GitHub. Your Resume (from project 0) will be one section of your portfolio/website. You should also post Data Science Society projects, personal projects, and any other data science related work you have done outside of class.
+For this project, you will be making a public website that is a data science portfolio that will be hosted on GitHub. Your Resume will be one section of your portfolio/website. You should also post Data Science Society projects, personal projects, and any other data science related work you have done outside of class. Do not post any of the DS250 course work in this portfolio.
+
 
 ### Data
 __Portfolio:__ [BYUI Data Science Portfolio](https://github.com/byuidatascience/datascience_portfolio)
+
 
 ### Readings
 
@@ -36,6 +39,7 @@ __Portfolio:__ [BYUI Data Science Portfolio](https://github.com/byuidatascience/
 - [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 - [Git in Visual Studio Code video](https://www.youtube.com/watch?v=wMqukSKYcvU)
 
+
 ### Portfolio Resources
 
 - [How to Modify a Quarto Website](https://quarto.org/docs/websites/website-tools.html)
@@ -45,6 +49,7 @@ __Portfolio:__ [BYUI Data Science Portfolio](https://github.com/byuidatascience/
 - [4 Data Science Portfolio Projects You Need to Create](https://builtin.com/data-science/data-science-portfolio-projects)
 - [Example 1 - Data Science Portfolio](https://github.com/rodrigo-arenas/portfolio)
 - [Example 2 - Data Science Portfolio](https://github.com/topics/portfolio-website)
+
 
 ### Questions and Tasks
 
@@ -116,8 +121,9 @@ __Portfolio:__ [BYUI Data Science Portfolio](https://github.com/byuidatascience/
 
 
 1. __Git your Resume in your Portfolio__
-    * __Move your resume from Project 0 into the Portfolio by replacing the `resume.qmd` file__
+    * 1. __Update the `resume.qmd` file in course work portfolio to include your updated resume using markdown. See [P4DS: CH30 Markdown](https://aeturrell.github.io/python4DS/markdown.html)__  
     * __Push your results to GitHub with GitHub Desktop.__  
+
 
 ### Deliverables:
 

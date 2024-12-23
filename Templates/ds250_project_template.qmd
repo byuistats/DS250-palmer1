@@ -28,13 +28,11 @@ execute:
 _THIS `.qmd` IS INSTRUCTIONAL AND SHOULD `NOT` BE USED TO WRITE YOUR REPORTS (EXCEPTION - PROJECT 0). THERE IS ANOTHER TEMPLATE FILE FOR THAT. YOU WILL NEED TO `PREVIEW` THE REPORT TO PRODUCE A `.html` FILE. YOU WILL SUBMIT THE `.html` FILE ON CANVAS._
 
 ```{python}
-#| label: libraries
-#| include: false
 import pandas as pd
 import numpy as np
 from lets_plot import *
 
-LetsPlot.setup_html()
+LetsPlot.setup_html(isolated_frame=True)
 ```
 
 
@@ -44,9 +42,6 @@ _A SHORT (2-3 SENTENCES) PARAGRAPH THAT `DESCRIBES KEY INSIGHTS` TAKEN FROM METR
 _A Client has requested this analysis and this is your one shot of what you would say to your boss in a 2 min elevator ride before he takes your report and hands it to the client._
 
 ```{python}
-#| label: project-data
-#| code-summary: Read and format project data
-
 # Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html
 
 # Include and execute your code here
@@ -70,10 +65,8 @@ _include figures in chunks and discuss your findings in the figure._
 - _YOU SHOULD HAVE QUALITY COMMENTS THAT DESCRIBES YOUR CODES. OFTEN CODEERS WORK IN TEAMS AND YOU NEED TO HAVE QUALTIY COMMENTS FOR YOUR TEAM AND YOURSELF. YOU MAY NEED TO REVISIT CODE YOU WROTE OVER A YEAR AGO, AND IF YOU DONT COMMENT IT NOW YOU WONT REMEMBER WHY YOU DID WHAT YOU DID._
 
 ```{python}
-#| label: Q1
-#| code-summary: Read and format data
 # Include and execute your code here
-
+df.head()
 
 ```
 
@@ -84,10 +77,6 @@ __COPY PASTE QUESTION|TASK 2 FROM THE PROJECT HERE__
 - _include figures in chunks and discuss your findings in the figure._
 
 ```{python}
-#| label: Q1-chart
-#| code-summary: plot example
-#| fig-cap: "My useless chart"
-#| fig-align: center
 # Include and execute your code here
 
 (
@@ -102,10 +91,6 @@ __COPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE__
 - _PROVIDE TABLES THAT HELP ADDRESS THE QUESTIONS AND TASKS (IF APPLICABLE)._
 
 ```{python}
-#| label: Q1-table
-#| code-summary: table example
-#| tbl-cap: "table example"
-#| tbl-cap-location: top
 # Include and execute your code here
 mydat = (df.head(1000)
     .groupby('manufacturer')

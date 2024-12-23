@@ -27,13 +27,14 @@ If you want to use Python and VS code on your own laptop, start here:
 6. Install [Python Libraries](/Setup/python_lib.qmd)    
 7. Install [VS Code](/Setup/vs_code_setup.qmd)  
 8. Install [Quarto](/Setup/quarto_setup.qmd)  
-9. Install [Git & GitHub](/Setup/git_github_setup.qmd) 
-<!-- 1. Plotly Express Setup [Python](/Setup/plotly_setup.qmd)  -->
-<!--1. Install Altair--> 
 
-You will need to use SQL in Week 6:
+You will need to use SQL in Week 4:
 
-10. [SQL](/Setup/sql_setup.qmd) setup and test
+9. [SQL](/Setup/sql_setup.qmd) setup and test
+
+You will need to use GitHub from Week 6 on:
+
+10. Install [Git & GitHub](/Setup/git_github_setup.qmd)
 
 Using Copilot (AI)?
 
@@ -41,7 +42,7 @@ Using Copilot (AI)?
 
 >This course is designed with a Core and Stretch for each project. It is expected that you acomplish the Core __**without**__ the use of Copilot. The Stretch is where you __**should**__ use Copilot. Without using Copilot, the stretch questions will be more challenging. The goal is to help you learn to code and to use Copilot as a tool to help you learn, not to do the work for you.
 
-11. Install [GitHub Copilot](/Setup/copilot_setup.qmd) (required)
+11. Install [GitHub Copilot](/Setup/copilot_setup.qmd) (required for Stretch Questions)
 
 Prefer an Open Source AI tool try [Llama](https://ollama.com/library/codellama)?  
 

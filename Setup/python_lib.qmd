@@ -51,8 +51,8 @@ We want to install the following three packages;
 
 - [pandas](https://pandas.pydata.org/)
 - [numpy](https://numpy.org/)
-- [plotly express](https://plotly.com/python/plotly-express/)
-- [scikit-learn](https://scikit-learn.org/stable/install.html#installation-instructions). 
+- [lets-plot](https://lets-plot.org/python/index.html#explore-your-data-with-lets-plot)
+- [scikit-learn](https://scikit-learn.org/stable/install.html#installation-instructions)
 
 
 #### Learn More About Python

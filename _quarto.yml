@@ -65,10 +65,10 @@ website:
         - text: "Project 1: What's in a Name?"
           file: Projects/project_1.qmd
         - text: "---"
-        - text: "Project 2: Late Flights and Missing Data (JSON)"
+        - text: "Project 2: Finding Relationships in Baseball"
           file: Projects/project_2.qmd
         - text: "---"
-        - text: "Project 3: Finding Relationships in Baseball"
+        - text: "Project 3: Late Flights and Missing Data (JSON)"
           file: Projects/project_3.qmd
         - text: "---"
         - text: "Project 4: Can You Predict That?"

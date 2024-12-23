@@ -24,7 +24,7 @@ keywords: [""]
 
 1. Click the `Continue` button. (Note: you will need to allow location access in your browser in order to continue.)
 
-1. Fill out the form with your information and click the `Submit` button. (Note: using your unofficial transcrdipt is one of the easiest ways to verify your student status.)
+1. Fill out the form with your information and click the `Submit` button. (Note: using this tool to get a document to submit is the most effective way https://education.github.com/discount_requests/application. Others have had success with a copy of their payment for the current semester.)
 
 
 ### How to Install GitHub Copilot Extension ^[1]

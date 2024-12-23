@@ -104,8 +104,14 @@ When you have completed the report, you will need to follow this process to subm
 
 ### Deliverables:
 
-_Use this [template](../Templates/ds250_project_template.qmd) to submit your Client Report. The template has two sections:_
+_Use this [P4_template](../Templates/P4_template.qmd) to submit your Client Report. The template has two sections:_
 
 1. _A short elevator pitch that highlights key values or metrics from the results. Describing these key insights to interest or hook the reader to want to read more about your work. The writing style should be more technical with some creative elements. Do not summarize what you did._  
 1. _Answers to the questions | tasks. Each should include a written description of your results, code cells with comments, charts and/or tables._  
 1. _A short __summary of work must__ be submitted in the comments in Canvas wwhen you submit the URL. Rate your own work on a scale of 1-5. 1 being poor and 5 being excellent. Include a short description of why you rated your work the way you did._
+
+
+### Feedback:
+::: {.callout-note collapse="true"}
+You will recieve feedback and/or coaching notes in the form of a GitHub issue. You will need to address the feedback, re-render and resubmit the project, and mark the GitHub issue as closed.
+:::

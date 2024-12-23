@@ -26,13 +26,11 @@ execute:
 ---
 
 ```{python}
-#| label: libraries
-#| include: false
 import pandas as pd
 import numpy as np
 from lets_plot import *
 
-LetsPlot.setup_html()
+LetsPlot.setup_html(isolated_frame=True)
 ```
 
 
@@ -42,9 +40,6 @@ _paste your elevator pitch here_
 _A SHORT (4-5 SENTENCES) PARAGRAPH THAT `DESCRIBES KEY INSIGHTS` TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS._
 
 ```{python}
-#| label: project-data
-#| code-summary: Read and format project data
-
 # Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html
 
 # Include and execute your code here
@@ -60,8 +55,6 @@ __COPY PASTE QUESTION|TASK 1 FROM THE PROJECT HERE__
 _type your results and analysis here_
 
 ```{python}
-#| label: Q1
-#| code-summary: Read and format data
 # Include and execute your code here
 
 
@@ -70,10 +63,6 @@ _type your results and analysis here_
 _include figures in chunks and discuss your findings in the figure._
 
 ```{python}
-#| label: Q1-chart
-#| code-summary: plot example
-#| fig-cap: "My useless chart"
-#| fig-align: center
 # Include and execute your code here
 (
   ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')
@@ -82,10 +71,6 @@ _include figures in chunks and discuss your findings in the figure._
 
 
 ```{python}
-#| label: Q1-table
-#| code-summary: table example
-#| tbl-cap: "Not much of a table"
-#| tbl-cap-location: top
 # Include and execute your code here
 mydat = (df.head(1000)
     .groupby('year')
@@ -106,8 +91,6 @@ __COPY PASTE QUESTION|TASK 2 FROM THE PROJECT HERE__
 _type your results and analysis here_
 
 ```{python}
-#| label: Q2
-#| code-summary: Read and format data
 # Include and execute your code here
 
 
@@ -116,11 +99,6 @@ _type your results and analysis here_
 _include figures in chunks and discuss your findings in the figure._
 
 ```{python}
-#| label: Q2-chart
-#| code-summary: plot example
-#| fig-cap: "My useless chart"
-#| fig-align: center
-
 # Include and execute your code here
 # (
 #   ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')
@@ -130,10 +108,6 @@ _include figures in chunks and discuss your findings in the figure._
 
 
 ```{python}
-#| label: Q2-table
-#| code-summary: table example
-#| tbl-cap: "Not much of a table"
-#| tbl-cap-location: top
 # Include and execute your code here
 # mydat = df.head(1000)\
 #     .groupby('year')\
@@ -154,8 +128,6 @@ __COPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE__
 _type your results and analysis here_
 
 ```{python}
-#| label: Q3
-#| code-summary: Read and format data
 # Include and execute your code here
 
 
@@ -164,10 +136,6 @@ _type your results and analysis here_
 _include figures in chunks and discuss your findings in the figure._
 
 ```{python}
-#| label: Q3-chart
-#| code-summary: plot example
-#| fig-cap: "My useless chart"
-#| fig-align: center
 # Include and execute your code here
 # Include and execute your code here
 # (
@@ -177,10 +145,6 @@ _include figures in chunks and discuss your findings in the figure._
 
 
 ```{python}
-#| label: Q3-table
-#| code-summary: table example
-#| tbl-cap: "Not much of a table"
-#| tbl-cap-location: top
 # Include and execute your code here
 # mydat = df.head(1000)\
 #     .groupby('year')\

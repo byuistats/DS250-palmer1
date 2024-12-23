@@ -9,9 +9,9 @@ icon: "ti-bar-chart"
 
 We will be relying on a few resources for this course. You will find the pertinant readings attached to each of the projects.  Those readings will be culled from:
 
-- [Python for Data Science](https://byuidatascience.github.io/python4ds/): A port of [R for Data Science](https://r4ds.had.co.nz/index.html) using the Python packages pandas and Altair.
+- Python for Data Science [python4DS](https://aeturrell.github.io/python4DS/welcome.html) is a port of [R for Data Science (2e)](https://r4ds.hadley.nz/) into Python.
 - [pandas User Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html)
-- [Plotly-Express User Guide](https://plotly.com/python/plotly-express/)
+- [Lets-Plot User Guide](https://lets-plot.org/python/pages/charts.html)
 - [scikit-learn learn User Guide](https://scikit-learn.org/stable/user_guide.html)
 - [scikit-learn Tutorials](https://scikit-learn.org/stable/tutorial/index.html)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)

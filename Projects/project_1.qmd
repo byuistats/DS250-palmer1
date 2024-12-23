@@ -69,14 +69,12 @@ We recommend reading through the assigned material once for a general understand
 ### Questions and Tasks (Core)
 
 ::: {.callout-note collapse="true"}
-This section lists the questions and tasks that need to be completed for the project. Your work on the project must be compiled into a report, pushed to GitHub and a URL submitted in Canvas by the weekend following the last day of material for the project. 
+This section lists the questions and tasks that need to be completed for the project. Your work on the project must be compiled into a report, rendered to a HTML file and uploaded in Canvas.
 
 There are two types of questions: Core and Stretch. Core questions are required for each project. The course syllabus [competencies](../Syllabus/competency.qmd) requires specic a number of projects having all the Stretch questions achived based on your goals for the grade level you are seeking.
 :::
 
-In the DS 250 folder of the Course Work Portfolio, edit the `Project1.qmd` quarto file to build a report that includes the following:  
-
-__For Project 1 the answer to each question should include a chart **and** a written response. The years labels on your charts should not include a comma. At least **two** of your charts must include reference marks.__  
+__Download this [Project1 Template](../Templates/P1_template.qmd) template. The answer to each question should include a chart **and** a written response. The years labels on your charts should not include a comma. At least **two** of your charts must include reference marks.__  
 
 1. __How does your name at your birth year compare to its use historically?__  
 1. __If you talked to someone named Brittany on the phone, what is your guess of his or her age? What ages would you not guess?__  
@@ -97,27 +95,21 @@ Here is an example Stretch question(s) for this project. Your instructor may ass
 ::: {.callout-note collapse="false"}
 When you have completed the report, you will need to follow this process to submit your work:
 
-1. Have the Course Work Portfolio open in VS Code and open `Projects/Project0.qmd`
+1. Have the `P1_template` open in VS Code and nothing else
 1. Click `Preview Button` in VS Code in the top right of the screen
     a. This will render the project but also entire course work portfolio into `HTML` files for review
     b. Confirm everything displas as you would like it to
     c. How you see it will be how it is viewed for grading
     d. If there is an error in any cell of the quarto files, the rendering will stop and you will need to fix the error before rendering again (if you get stuck post your error in Slack)
-1. Once the report is confirmed close the preview and open the `GitHub Desktop` application
-1. Confirm you are in the correct repository in the top left corner of the screen
-1. Confirm you are on the correct branch `Main` in the top left corner of the screen (Never change off the `Main` branch)
-1. Type a summary of the changes in the `Summary` box
-1. Click `Commit to main` blue button in the bottom left corner
-1. Click `Push origin` blue button in the middle right of the screen
-    a. This will push all your changes in the project .qmd file to GitHub
-    b. The publish.yml file will kick off an automated process to render the project into HTML files
-    c. The HTML files will be published to GitHub pages in the gh-pages branch
-    d. The URL to the published project will be in the deployment section in GitHub
-        1. In `GitHub Desktop` click `Open in GitHub` to navigete to the repository
-        2. Click on the `Actions` tab and make sure there were no errors in the rendering process
-        3. Click on the `deployment` section of the main page of the repository to find the URL
-        4. Navigate to the URL and confirm it displays as you intended
-        5. Copy the URL and submit it in Canvas
+1. Once the report is confirmed close the preview and open a VS Code `Terminal`
+    a. click `Terminal` in the top menu bar and then `New Terminal`
+1. Type the following in the terminal `quarto render `
+    a. Then drag and drop `P0_template.qmd` into the terminal this will add the file path to the terminal command
+    a. Press Enter
+1. This will render the project into a `HTML` file in the same location as the `.qmd` file
+1. To locate the file in VS Code
+    a. Right click on the file in the file explorer and select `Reveal in File Explorer`(Win) or `Reveal in Finder`(Mac)
+1. Upload `HTML` file into Canvas
 :::
 
 
@@ -127,23 +119,23 @@ When you have completed the report, you will need to follow this process to subm
 Deliverables are “the quantifiable goods or services that must be provided upon the completion of a project”. In this class the deliverable for each project is a GitHub published report created using Quarto files. This final section will be the same for each project. 
 :::
 
-_Use this [template](../Templates/ds250_project_template.qmd) to submit your Client Report. The template has two sections:_
-
-1. _A short elevator pitch that highlights key values or metrics from the results. Describing these key insights to interest or hook the reader to want to read more about your work. The writing style should be more technical with some creative elements. Do not summarize what you did._  
+_Use this [P1_template](../Templates/P1_template.qmd) to submit your Client Report._
+ 
 1. _Answers to the questions | tasks. Each should include a written description of your results, code cells with comments, charts and/or tables._  
 1. _A short __summary of work must__ be submitted in the comments in Canvas wwhen you submit the URL. Rate your own work on a scale of 1-5. 1 being poor and 5 being excellent. Include a short description of why you rated your work the way you did._
 
-::: {.callout-note collapse="true"}
-_Your report should be written in quarto markdown files and pushed to GitHub. Submit a URL of the rendered project in Canvas. (Do not submit the URL to the GitHub `.qmd` file)_  
+::: {.callout-note collapse="false"}
+_Your report should be written in quarto markdown files and rendered to an HTML File. Upload the HTML file in Canvas. (Do not submit the `.qmd` file)_  
 :::
 
 
 ### Feedback:
 ::: {.callout-note collapse="false"}
-You will recieve feedback and/or coaching notes in the form of a GitHub issue. You will need to address the feedback, re-render and resubmit the project, and mark the GitHub issue as closed.
+If you submit before the due date, you will recieve feedback and/or coaching notes. You will need to address the feedback, re-render and resubmit the project.
 :::
+
 
 ### Resubmission:
 ::: {.callout-note collapse="false"}
-You will have __one__ opportunity to resubmit the project after you have received feedback. The window for the resubmission will be open through the __Wednesday__ following the due date of the project. Therefore it is recomended that you turn in a draft of the project early on the __Thursday__ before the due date to ensure you have time to address any feedback and resubmit the project. It is acceptable to turn in a draft that is only 80% complete. This will allow you to get feedback on the majority of the project and then focus on the final details. The closer to that Thursday you turn in the draft the more feedback and coaching you will recieve.
+_If you submit before the due date_, you will have __one__ opportunity to resubmit the project after you have received feedback. The window for the resubmission will be open through the __Wednesday__ following the due date of the project.
 :::
