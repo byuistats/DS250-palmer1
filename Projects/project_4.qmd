@@ -64,7 +64,11 @@ __Information:__ [Data description](https://github.com/byuidatascience/data4dwel
 
 
 ### Questions and Tasks (Stretch)
+::: {.callout-note collapse="true"}
+This section lists the questions and tasks that need to be completed for the project. Your work on the project must be compiled into a report, rendered to HTML file in a Course Portfolio a link to that project page uploaded in Canvas.
 
+There are two types of questions: Core and Stretch. Core questions are required for each project. The course syllabus [competencies](../Syllabus/competency.qmd) requires specic a number of projects having all the Stretch questions achived based on your goals for the grade level you are seeking.
+:::
 Here is an example Stretch question(s) for this project. Your instructor may assign different Stretch question(s). You must comment in Canvas when submitting your project if you completed any of the Stretch questions.  
 
 1. __Repeat the classification model using 3 different algorithms.__ Display their Feature Importance, and Decision Matrix. Explian the differences between the models and which one you would recommend to the Client.  

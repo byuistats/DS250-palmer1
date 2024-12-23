@@ -75,7 +75,7 @@ This section lists the questions and tasks that need to be completed for the pro
 
 There are two types of questions: Core and Stretch. Core questions are required for each project. The course syllabus [competencies](../Syllabus/competency.qmd) requires specic a number of projects having all the Stretch questions achived based on your goals for the grade level you are seeking.
 :::
-
+1. __Download this [Project2 Template](../Templates/P2_template.qmd) template.__
 1. __Write an SQL query to create a new dataframe about baseball players who attended BYU-Idaho. The new table should contain five columns: playerID, schoolID, salary, and the yearID/teamID associated with each salary. Order the table by salary (highest to lowest) and print out the table in your report.__  
 
 1. __This three-part question requires you to calculate batting average (number of hits divided by the number of at-bats)__  

@@ -50,7 +50,11 @@ __Information:__ [Article](https://fivethirtyeight.com/features/americas-favorit
 
 
 ### Questions and Tasks (Core)
+::: {.callout-note collapse="true"}
+This section lists the questions and tasks that need to be completed for the project. Your work on the project must be compiled into a report, rendered to HTML file in a Course Portfolio a link to that project page uploaded in Canvas.
 
+There are two types of questions: Core and Stretch. Core questions are required for each project. The course syllabus [competencies](../Syllabus/competency.qmd) requires specic a number of projects having all the Stretch questions achived based on your goals for the grade level you are seeking.
+:::
 1. __Shorten the column names and clean them up for easier use with pandas.__ Provide a table or list that exemplifies how you fixed the names.  
 
 1. __Clean and format the data so that it can be used in a machine learning model.__ As you format the data, you should complete each item listed below. In your final report provide example(s) of the reformatted data with a short description of the changes made.  
