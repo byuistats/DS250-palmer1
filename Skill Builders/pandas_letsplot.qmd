@@ -196,6 +196,6 @@ Your chart should show year as the x-axis, prisoner as the y-axis, states as dif
 ::: {.callout-note collapse="true"}
 #### After you have completed this skill builder with your team (or on your own) then compare your work to our script
 
-__See the [script](/Skill Builders/pandas_plotly.py).__
+__See the [script](/Skill Builders/pandas_letsplot.py).__
 
 :::
