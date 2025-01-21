@@ -104,7 +104,7 @@ When you have completed the report, you will need to follow this process to subm
 1. Once the report is confirmed close the preview and open a VS Code `Terminal`
     a. click `Terminal` in the top menu bar and then `New Terminal`
 1. Type the following in the terminal `quarto render `
-    a. Then drag and drop `P0_template.qmd` into the terminal this will add the file path to the terminal command
+    a. Then drag and drop `P1_template.qmd` into the terminal this will add the file path to the terminal command
     a. Press Enter
 1. This will render the project into a `HTML` file in the same location as the `.qmd` file
 1. To locate the file in VS Code

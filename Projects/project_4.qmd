@@ -82,7 +82,7 @@ Here is an example Stretch question(s) for this project. Your instructor may ass
 ::: {.callout-note collapse="true"}
 When you have completed the report, you will need to follow this process to submit your work:
 
-1. Have the Course Work Portfolio open in VS Code and open `Projects/Project0.qmd`
+1. Have the Course Work Portfolio open in VS Code and open `Projects/Project4.qmd`
 1. Click `Preview Button` in VS Code in the top right of the screen
     a. This will render the project but also entire course work portfolio into `HTML` files for review
     b. Confirm everything displas as you would like it to
