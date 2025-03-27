@@ -24,7 +24,7 @@ __URL:__ [penguins data](https://aeturrell.github.io/python4DS/data-visualise.ht
 
 ### Readings
 
-Please do the assigned **before coming to class**!
+Please do the assigned **before coming to class**!!
 
 Many people different levels of experience with Python, VS Code, and programming in general. That is why there are so many and why skimming may be a good strategy for some students, but not for others. 
 
@@ -78,8 +78,7 @@ When you have completed the report, you will need to follow this process to subm
 
 _Use this [P0_template](../Templates/P0_template.qmd) to submit your Client Report._
  
-1. _The template should include answers to the questions | tasks. Each should include a written description of your results, code cells with comments, charts and/or tables._  
-
+1. _The template should include answers to the tasks. Each should include a written description of your results, code cells with comments, charts and/or tables._  
 
 ::: {.callout-note collapse="false"}
 _Your report should be written in quarto markdown files and rendered to an HTML File. Upload the HTML file in Canvas. (Do not submit the `.qmd` file)_  
