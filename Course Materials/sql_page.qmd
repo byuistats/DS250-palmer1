@@ -867,15 +867,6 @@ It's rare that a data analysis involves only a single data frame. Typically you 
 **pandas** has a really rich set of options for combining one or more data frames, with the two most important being concatenate and merge. Some of the examples in this chapter show you how to join a pair of data frames. Fortunately this is enough, since you can combine three data frames by combining two pairs.
 
 
-```{python}
-# remove cell
-import matplotlib_inline.backend_inline
-import matplotlib.pyplot as plt
-
-# Plot settings
-plt.style.use("https://github.com/aeturrell/python4DS/raw/main/plot_style.txt")
-matplotlib_inline.backend_inline.set_matplotlib_formats("svg")
-```
 
 
 ### Prerequisites
